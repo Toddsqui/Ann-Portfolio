@@ -16,11 +16,16 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
+
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"   integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="   crossorigin="anonymous"></script>
 
+    <!-- Slick Nav -->
+    <link rel="stylesheet" href="SlickNav/slicknav.css" />
+    <script src="SlickNav/jquery.slicknav.min.js"></script>
 
 <style>
 /*!
@@ -239,7 +244,7 @@ ul{
 }
 
 #bar {
-  width: 10%;
+  width: 70px;
 }
 
 .writing{
@@ -248,11 +253,43 @@ ul{
 }
 
 
-
 .at {
   margin-bottom: 140.984px;
 }
 
+.eye-background{
+  width: 255px;
+  height: 255px;
+  border-radius: 50px;
+  color: white;
+}
+
+/* media queries */
+
+@media screen and (max-width: 767px){
+  .sidebar{
+    display: none;
+  }
+
+  .slicknav_menu{
+    background: white;
+  }
+
+  .slicknav_menu li{
+    color: #4d4d4d;
+    font-size: 25px;
+  }
+
+  .slicknav_btn {
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .slicknav_menu{
+    display: none;
+  }
+}
 
 
 </style>
@@ -269,14 +306,15 @@ ul{
       <div class="col-sm-2 sidebar sidefont">
 
 
-        <img src="Group2.png" alt="" class="normalicon at">
+        <img src="Group2.png" alt="" class="normalicon at" style="margin-bottom: 120%;">
 
 <img src="Group.png" alt="" class="normalicon">
-        <ul>
+        <ul id="menu">
           <li>About</li>
           <li>Projects</li>
           <li>Content</li>
         </ul>
+
 
 
 
@@ -288,7 +326,7 @@ ul{
 
         <h1>About</h1>
         <img src="bar.png" alt="" id="bar"><br /><br />
-        <img src="mainpic.png" alt="">
+        <img src="mainpic.png" alt="Main pic for Ann's site" style="margin-top: 7%">
 
         <p class="writing normalfont">I'm a junior UX designer with a passion for design and technology, with multidisciplinary backgrounds.<br /><br />
         I believe putting users at the heart of any project is the key to deliver thoughtful work.<br /><br />
@@ -307,6 +345,14 @@ ul{
 
 
 <script src="js/main.js"></script>
+<script src="js/eyes.js"></script>
+
+<script>
+  $(function(){
+    $('#menu').slicknav();
+  })
+
+</script>
 
 
 </body>
