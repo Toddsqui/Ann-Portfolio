@@ -199,6 +199,12 @@ ul{
   text-align: center;
 }
 
+.main-content2{
+  text-align: center;
+  background-color: #fed660;
+  font-family: 'Open Sans', sans-serif;
+}
+
 #bar {
   width: 70px;
 }
@@ -219,6 +225,26 @@ ul{
   border-radius: 50px;
   color: white;
 }
+
+/* design styles for the yellow page */
+
+
+/* design styles */
+
+
+#socialmedia {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#socialmedia li{
+  float: left;
+}
+
+.sociamediaballs{
+  width: 90px;
+}
+
 
 /* media queries */
 
