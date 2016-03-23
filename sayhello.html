@@ -21,9 +21,15 @@
 
     <!-- Slick Nav -->
     <link rel="stylesheet" href="SlickNav/slicknav.css" />
+
     <script src="SlickNav/jquery.slicknav.min.js"></script>
 
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+
+</head>
+
+
 
 <style>
 body{
@@ -32,7 +38,6 @@ body{
 
 </style>
 
-</head>
 
 <body>
 <div class="container">
@@ -41,9 +46,11 @@ body{
       <div class="col-sm-2 sidebar sidefont">
 
 
-        <img src="Group2.png" alt="" class="normalicon">
+        <img src="Group2.png" alt="" class="normalicon" id="firsticon">
+
+
 <img src="Group.png" alt="" class="normalicon">
-        <ul>
+      <ul id="menu">
           <li>About</li>
           <li>Projects</li>
           <li>Content</li>
@@ -57,13 +64,22 @@ body{
 
         <h1>Say Hello!</h1>
         <img src="bar.png" alt="" id="bar"><br /><br />
-        <ul id="socialmedia" class="socialmediaballs">
-            <li><img src="images/email.png" alt="" class="socialmediaballs"></li>
-            <li><img src="images/cvicon.png" alt="" class="socialmediaballs"></li>
-            <li><img src="images/linkedin.png" alt="" class="socialmediaballs"></li>
-            <li><img src="images/twitter.png" alt="" class="socialmediaballs"></li>
 
-        </ul>
+<!-- you created two columns for the social media icons -->
+
+<div class="socialmediamaster">
+        <div class="socialmedia1">
+            <a href="#"><img src="images/email.png" alt="" class="socialmediaballs" id="ball1"></a>
+            <a href="#"><img src="images/cvicon.png" alt="" class="socialmediaballs" id="ball2"></a>
+          </div><!-- end of socialmedia 1 -->
+
+
+        <div class="socialmedia2">
+            <a href="#"><img src="images/linkedin.png" alt="" class="socialmediaballs" id="ball3"></a>
+            <a href="#"><img src="images/twitter.png" alt="" class="socialmediaballs" id="ball4"></a>
+          </div><!-- end of socialmedia 2 -->
+</div><!-- end of master div for social media icons -->
+
 
         <p class="writing normalfont">I'm a junior UX designer with a passion for design and technology, with multidisciplinary backgrounds.<br /><br />
         I believe putting users at the heart of any project is the key to deliver thoughtful work.<br /><br />
@@ -79,6 +95,16 @@ body{
 
 </div><!-- end of container -->
 
+
+<script src="js/main.js"></script>
+<script src="js/eyes.js"></script>
+
+<script>
+  $(function(){
+    $('#menu').slicknav();
+  })
+
+</script>
 
 
 </body>

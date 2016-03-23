@@ -160,6 +160,11 @@ body{
   display: block;
 }
 
+/* yellow page only */
+#firsticon{
+  margin-bottom: 120%;
+}
+
 .sidefont{
   font-size: 15px;
 }
@@ -226,25 +231,13 @@ ul{
   color: white;
 }
 
-/* design styles for the yellow page */
-
-
-/* design styles */
-
-
-#socialmedia {
-  list-style-type: none;
-  display: inline-block;
+.socialmediaballs{
+  max-width: 100%;
 }
 
-#socialmedia li{
-  float: left;
+#ball1, #ball2, #ball3, #ball4 {
+  margin: 0 10px 10px;
 }
-
-.sociamediaballs{
-  width: 90px;
-}
-
 
 /* media queries */
 
@@ -271,10 +264,40 @@ ul{
   .slicknav_btn {
     background-color: white;
   }
+
+#socialmedia{
+  margin-left: 15%;
+}
+
 }
 
 @media screen and (min-width: 768px){
   .slicknav_menu{
     display: none;
+  }
+
+
+  #socialmedia {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 7%;
+  }
+
+  #socialmedia li{
+    float: left;
+    margin-left: 10px;
+
+  }
+}
+
+@media screen and (max-width: 463px){
+  .socialmedia1{
+    margin: 10px 19px 55px -17px;
+    width: 152px;
+    display: inline-block;
+  }
+  .socialmedia2{
+    width: 152px;
+    display: inline-block;
   }
 }
