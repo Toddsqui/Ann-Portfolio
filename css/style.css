@@ -265,6 +265,7 @@ ul{
     background-color: white;
   }
 
+
 #socialmedia{
   margin-left: 15%;
 }
@@ -287,6 +288,14 @@ ul{
     float: left;
     margin-left: 10px;
 
+  }
+}
+
+
+@media screen and (min-width: 464px){
+  .socialmedia1, .socialmedia2 {
+    width: 157px;
+    display: inline;
   }
 }
 
