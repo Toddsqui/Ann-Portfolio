@@ -291,6 +291,57 @@ ul{
   }
 }
 
+/* adjusted the social media balls */
+
+@media screen and (max-width: 1176px){
+  #ball1, #ball2, #ball3, #ball4 {
+    max-width: 169px;
+  }
+}
+
+@media screen and (max-width: 1076px){
+  #ball1, #ball2, #ball3, #ball4 {
+    max-width: 154px;
+  }
+}
+
+@media screen and (max-width: 996px){
+  #ball1, #ball2, #ball3, #ball4 {
+    max-width: 147px;
+  }
+}
+
+@media screen and (max-width: 980px){
+  #ball1, #ball2, #ball3, #ball4 {
+    max-width: 137px;
+  }
+}
+
+@media screen and (max-width: 906px){
+  #ball1, #ball2, #ball3, #ball4 {
+    max-width: 117px;
+  }
+}
+
+@media screen and (max-width: 805px){
+  #ball1, #ball2, #ball3, #ball4 {
+    max-width: 103px;
+  }
+}
+
+@media screen and (max-width: 531px){
+  #ball1, #ball2, #ball3, #ball4 {
+    max-width: 97px;
+  }
+}
+
+@media screen and (max-width: 508px){
+  #ball1, #ball2, #ball3, #ball4 {
+    max-width: 85px;
+  }
+}
+
+/* end of medial balls */
 
 @media screen and (min-width: 464px){
   .socialmedia1, .socialmedia2 {
@@ -301,7 +352,7 @@ ul{
 
 @media screen and (max-width: 463px){
   .socialmedia1{
-    margin: 10px 19px 55px -17px;
+    margin: 0px -39px -11px -17px;
     width: 152px;
     display: inline-block;
   }
