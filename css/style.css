@@ -3,6 +3,11 @@
  * (c) 2015 Josh Cope
  * licensed under MIT
  */
+
+ .center{
+   text-align: center;
+ }
+ 
 .slicknav_btn {
   width: 30px;
   height: 30px;
@@ -246,6 +251,7 @@ ul{
     display: none;
   }
 
+
   .slicknav_menu{
     background-image: url('../Group2.png'); max-width: 100%;
     background-size: 8%;
@@ -291,6 +297,15 @@ ul{
   }
 }
 
+/* this is for the project.html page */
+
+.projectside{
+  background-color: #EBEBEB;
+  height: 130%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
 /* adjusted the social media balls */
 
 @media screen and (max-width: 1176px){
@@ -329,15 +344,53 @@ ul{
   }
 }
 
-@media screen and (max-width: 531px){
-  #ball1, #ball2, #ball3, #ball4 {
-    max-width: 97px;
+@media screen and (max-width: 765px){
+  .slicknav_menu{
+    background-size: 7%;
   }
 }
 
-@media screen and (max-width: 508px){
+@media screen and (max-width: 755px){
+  .slicknav_menu{
+    background-size: 7%;
+  }
+}
+
+@media screen and (max-width: 628px){
+  .slicknav_menu{
+    background-size: 8%;
+  }
+}
+
+@media screen and (max-width: 547px){
   #ball1, #ball2, #ball3, #ball4 {
-    max-width: 85px;
+    max-width: 94px;
+  }
+
+  .slicknav_menu{
+    background-size: 9%;
+  }
+
+}
+
+@media screen and (max-width: 514px){
+  #ball1, #ball2, #ball3, #ball4 {
+    max-width: 82px;
+  }
+}
+
+@media screen and (max-width: 473px){
+  #ball1, #ball2, #ball3, #ball4 {
+    max-width: 82px;
+  }
+}
+
+@media screen and (max-width: 427px){
+  .slicknav_menu{
+    background-size: 13%;
+  }
+  #ball1, #ball2, #ball3, #ball4 {
+    max-width: 104px;
   }
 }
 
