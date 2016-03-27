@@ -7,7 +7,7 @@
  .center{
    text-align: center;
  }
- 
+
 .slicknav_btn {
   width: 30px;
   height: 30px;
@@ -248,7 +248,7 @@ ul{
 
 @media screen and (max-width: 767px){
   .sidebar{
-    display: none;
+    display: none !important;
   }
 
 
@@ -405,7 +405,7 @@ ul{
 
 @media screen and (max-width: 463px){
   .socialmedia1{
-    margin: 0px -39px -11px -17px;
+  /*  margin: 0px -39px -11px -17px;*/
     width: 152px;
     display: inline-block;
   }
@@ -413,4 +413,64 @@ ul{
     width: 152px;
     display: inline-block;
   }
+
+  .socialmedia1 a, .socialmedia2 a {
+    margin-top: 10px;
+    display: block;
+  }
 }
+
+.override {
+  display: table;
+  width: 100%;
+}
+
+.override .col-sm-2 {
+  display:  table-cell;
+}
+
+.socialmediamaster {
+  margin: 10% auto;
+/*  width: 81%;*/
+}
+
+/* THIS CODE IS FOR THE ANIMATED EYES */
+
+.man{
+  display: block;
+  width: $size;
+  height: $size;
+  position: relative;
+  margin:auto;
+  background-repeat: no-repeat;
+  background-position:center center;  }
+
+  /* BACKGROUND IMAGE ULR IN BOTTOM OF CSS (BASE64) */
+
+#left-eye,
+#right-eye{
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    width: 28px; height: 24px;
+    top: 158px;
+  }
+  #left-eye{
+    left: 426px;
+    top: -85px;
+  }
+  #right-eye{
+    left: 448px;
+    top: -85px;
+  }
+
+  #left-pupil,#right-pupil{
+    width: 8px; height: 8px;
+    background: #FFF;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+  }
+
+
+/* END OF ANIMATED EYES */
