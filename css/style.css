@@ -142,7 +142,8 @@ body{
   border: none;
   margin: 0;
   box-sizing: border-box;
-  background-color: #fa7376;
+  /*background-color: #fa7376;*/
+  background-color: transparent;
 }
 
 /* design styles */
@@ -187,11 +188,12 @@ body{
 }
 
 .sidebar{
-  background-color: #F5F5F5;
+  /*background-color: #F5F5F5;*/
   height: 130%;
   border-right: 25px solid white;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
+  background-color: transparent;
 }
 
 
@@ -204,14 +206,16 @@ ul{
 }
 
 .main-content{
-  background-color: #fa7376;
+  /*background-color: #fa7376;*/
+  background-color: transparent;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
 
 .main-content2{
   text-align: center;
-  background-color: #fed660;
+  /*background-color: #fed660;*/
+  background-color: transparent;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -474,3 +478,23 @@ ul{
 
 
 /* END OF ANIMATED EYES */
+
+
+body {
+  background-image: -webkit-gradient(linear,
+    left top,
+    right top,
+    color-stop(0, #eee),
+    color-stop(20%, #eee),
+    color-stop(20%, #ccc),
+    color-stop(40%, #ccc),
+    color-stop(40%, #eee),
+    color-stop(60%, #eee),
+    color-stop(60%, #ccc),
+    color-stop(80%, #ccc),
+    color-stop(80%, #eee),
+    color-stop(100%, #eee)
+	);
+
+
+}
