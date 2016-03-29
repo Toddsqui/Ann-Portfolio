@@ -362,10 +362,10 @@ ul{
   }
 }
 
-@media screen and (max-width: 547px){
+@media (max-width:962px) and (min-width:542px) {
   #ball1, #ball2, #ball3, #ball4 {
-    max-width: 94px;
-  }
+    max-width: 88px;
+}​
 
   .slicknav_menu{
     background-size: 9%;
