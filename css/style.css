@@ -159,9 +159,16 @@
   display: block;
 }
 
+.greenface{
+  position: fixed;
+  left: 3%;
+  top: 52%;
+}
+
 /* yellow page only */
 #firsticon{
   margin-bottom: 120%;
+  margin-left: 14%;
 }
 
 .sidefont{
@@ -198,6 +205,12 @@ ul{
   margin: 0;
 }
 
+ul#menu{
+  position: fixed;
+  margin-left: 3%;
+  top: 68%;
+}
+
 .main-content{
   /*background-color: #fa7376;*/
   background-color: transparent;
@@ -224,6 +237,7 @@ ul{
 
 .at {
   margin-bottom: 140.984px;
+  margin-left: 14%;
 }
 
 .eye-background{
@@ -485,10 +499,10 @@ body {
     right top,
     color-stop(0, #eee),
     color-stop(12%, #F5F5F5),
-    color-stop(12%, #F5F5F6),
-    color-stop(13%, #fff),
-      color-stop(16%, #fff),
-    color-stop(16%, #FED660),
+    color-stop(12%, #F5F5F5),
+    color-stop(12%, #fff),
+    color-stop(14%, #fff),
+    color-stop(14%, #FED660),
     color-stop(100%, #FED660)
 	);
 }
@@ -499,10 +513,10 @@ body.index {
     right top,
     color-stop(0, #eee),
     color-stop(12%, #F5F5F5),
-    color-stop(12%, #F5F5F6),
-    color-stop(13%, #fff),
-      color-stop(16%, #fff),
-    color-stop(16%, #fa7376),
+    color-stop(12%, #F5F5F5),
+    color-stop(12%, #fff),
+    color-stop(14%, #fff),
+    color-stop(14%, #fa7376),
     color-stop(100%, #fa7376)
 	);
 }
