@@ -331,6 +331,7 @@ ul#menu{
   }
 }
 
+
 @media screen and (max-width: 1076px){
   #ball1, #ball2, #ball3, #ball4 {
     max-width: 154px;
@@ -558,4 +559,27 @@ body.index {
 
 .main-container {
   margin-left: -40.5%;
+}
+
+/* media screen for the eyes only */
+
+@media screen and (max-width: 1112px){
+  #right-eye{
+    left: 51.1%;
+  }
+}
+
+@media screen and (max-width: 925px){
+  #left-eye{
+    left: 47.8%;
+  }
+  #right-eye{
+    left: 51.3%;
+  }
+}
+
+@media screen and (max-width: 431px){
+  #left-eye {
+    left: 46.9%;
+  }
 }
