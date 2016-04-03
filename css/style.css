@@ -504,17 +504,17 @@ ul#menu{
     top: 158px;
   }
   #left-eye{
-    left: 46%;
-    top: -84px;
+    left: 48.2%;
+    top: -85px;
   }
   #right-eye{
-    left: 53%;
-    top: -94px;
+    left: 50.7%;
+    top: -95px;
   }
 
   #left-pupil,#right-pupil{
     width: 8px; height: 8px;
-    background: #000;
+    background: #595959;
     border-radius: 50%;
     display: block;
     position: absolute;
@@ -554,4 +554,8 @@ body.index {
 .slicknav_icon-bar {
   display: none !important;
 
+}
+
+.main-container {
+  margin-left: -40.5%;
 }
