@@ -349,6 +349,32 @@ ul#menu{
   }
 }
 
+@media screen and (max-width: 960px){
+  .sidebar{
+    display: none !important;
+  }
+  .slicknav_menu {
+    display: block !important;
+    background-image: url('../Group2.png');
+    max-width: 100%;
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-bottom: 10px;
+    border-color: white;
+    border-style: solid;
+  }
+
+  .slicknav_btn{
+    background-color: white;
+  }
+
+  body{
+    background: #fed660 !important;
+  }
+
+}
+
 @media screen and (max-width: 906px){
   #ball1, #ball2, #ball3, #ball4 {
     max-width: 117px;
@@ -464,26 +490,31 @@ ul#menu{
 
   /* BACKGROUND IMAGE ULR IN BOTTOM OF CSS (BASE64) */
 
+
+.main-container {
+  position: absolute;
+  left: 50%;
+}
 #left-eye,
 #right-eye{
     border-radius: 50%;
     display: block;
-    position: absolute;
-    width: 28px; height: 24px;
+    position: relative;
+    width: 10px; height: 10px;
     top: 158px;
   }
   #left-eye{
-    left: 426px;
-    top: -85px;
+    left: 46%;
+    top: -84px;
   }
   #right-eye{
-    left: 448px;
-    top: -85px;
+    left: 53%;
+    top: -94px;
   }
 
   #left-pupil,#right-pupil{
     width: 8px; height: 8px;
-    background: #FFF;
+    background: #000;
     border-radius: 50%;
     display: block;
     position: absolute;
