@@ -257,6 +257,12 @@ ul#menu{
 
 /* media queries */
 
+@media screen and (max-width: 959px){
+  body.index{
+    background-color: #fa7376 !important;
+  }
+}
+
 @media screen and (max-width: 767px){
   .sidebar{
     display: none !important;
@@ -439,6 +445,15 @@ ul#menu{
   }
 }
 
+@media screen and (max-width: 392px){
+  #left-eye{
+    left: 45%;
+  }
+  #left-eye{
+    left: 52.3%;
+  }
+}
+
 /* end of medial balls */
 
 @media screen and (min-width: 464px){
@@ -576,6 +591,12 @@ body.index {
   }
   #right-eye{
     left: 51.3%;
+  }
+}
+
+@media screen and (max-width: 578px){
+  #left-eye{
+    left: 46.8%;
   }
 }
 
