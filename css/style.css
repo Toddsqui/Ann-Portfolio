@@ -568,6 +568,25 @@ body.index {
     color-stop(100%, #fa7376)
 	);
 }
+
+body.projects {
+  background-image: -webkit-gradient(linear,
+    left top,
+    right top,
+    color-stop(0, #eee),
+    color-stop(12%, #F5F5F5),
+    color-stop(12%, #F5F5F5),
+    color-stop(12%, #fff),
+    color-stop(14%, #fff),
+    color-stop(14%, #EBEBEB),
+    color-stop(40%, #EBEBEB),
+    color-stop(40%, #433550),
+    color-stop(100%, #433550)
+	);
+}
+
+
+
 .slicknav_icon-bar {
   display: none !important;
 
@@ -604,4 +623,36 @@ body.index {
   #left-eye {
     left: 46.9%;
   }
+}
+
+/* CSS for the projects page */
+
+/* this is the middle list on the page */
+
+ul.projectlist{
+  margin-left: 56px;
+  text-align: left;
+}
+
+.topbar{
+  height: 225px;
+  margin: 0 auto;
+  background-color: #70c1b3;
+}
+
+.middlebar{
+  background-color: #445f71;
+  height: 225px;
+  margin: 0 auto;
+  width: 100%
+}
+
+.middlemenu{
+  width: 23.3333%;
+  padding: 0;
+}
+
+
+.projects-main{
+  padding: 0;
 }
