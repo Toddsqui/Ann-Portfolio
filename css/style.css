@@ -698,3 +698,36 @@ ul.projectlist{
   display: block;
   margin: 14px auto;
 }
+
+/* this is code for the contact form */
+
+.form-field{
+  border: 1px solid #dc4653;
+  width: 400px;
+  height: 42px;
+  border-radius: 9px;
+  padding: 10px;
+}
+
+.form-submit{
+  float: right;
+  right: 28%;
+  position: absolute;
+}
+
+.form-message{
+  height: 156px;
+  color: #8E8C8C;
+}
+
+.contactmessage{ /* this is the message that is right above the form */
+  color: #848282;
+}
+
+.specialline{
+  background-color: #db747a;
+  height: 2px;
+  width: 59px;
+  position: absolute;
+  margin-left: 344px;
+}
