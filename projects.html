@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 <head>
@@ -7,6 +8,8 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+
+
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
     <!-- Latest compiled and minified CSS -->
@@ -15,108 +18,91 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
+
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-    <!-- jquery -->
-    <script src="jquery-2.2.2.min.js"></script>
-    <!-- Slick Nav -->
-    <link rel="stylesheet" href="SlickNav/slicknav2.css" />
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"   integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="   crossorigin="anonymous"></script>
 
+    <!-- Slick Nav -->
+    <link rel="stylesheet" href="SlickNav/slicknav.css" />
     <script src="SlickNav/jquery.slicknav.min.js"></script>
 
     <link rel="stylesheet" href="css/style.css" type="text/css" />
 
 
+
+
 </head>
 
-
-
-<style>
-body{
-  background-color: #433550;
-}
-
-@media screen and (max-width: 767px){
-  body{
-    background-color: #EBEBEB;
-  }
-  .projectside{
-    height: 63%;
-  }
-}
-
-</style>
-
-
-<body>
+<body class="projects">
 <div class="container">
     <div class="row">
+
+
+      <!-- ============ SIDEBAR  =================== -->
 
       <div class="col-sm-2 sidebar sidefont">
 
 
-        <img src="Group2.png" alt="" class="normalicon" id="firsticon" style="margin-top: 23px;">
+        <img src="Group2.png" alt="" class="normalicon at" style="margin-bottom: 120%; margin-top: 23px;">
 
-
-<img src="Group.png" alt="" class="normalicon">
-      <ul id="menu">
-        <a href="sayhello.html" style="text-decoration: none; color: #000;"><li>About</li></a>
-        <a href="#" style="text-decoration: none; color: #000;"><li>Projects</li></a>
-        <a href="index.html" style="text-decoration: none; color: #000;"><li>Content</li></a>
+<img src="Group.png" alt="" class="normalicon greenface">
+        <ul id="menu">
+          <a href="sayhello.html" style="text-decoration: none; color: #000;"><li>About</li></a>
+          <a href="projects.html" style="text-decoration: none; color: #000;"><li>Projects</li></a>
+            <a href="sayhello.html" style="text-decoration: none; color: #000;"><li>Content</li></a>
         </ul>
+
+
+
 
       </div><!-- sidebar -->
 
-      <div class="col-sm-4 sidefont projectside">
-<h2 class="center">Featured Projects</h2>
-<p class="center"><img src="bar.png" style="width: 81px;
-    height: 8px;"></p>
-<ul>
-  <li>Asthma Care</li>
-  <li>Radio - MusicConnect</li>
-  <li>Dignity Meal</li>
-  <li>King Kog Bike</li>
-</ul>
+          <div class="col-sm-4 middlemenu">
+<h2>Featured Projects</h2>
+              <ul class="projectlist">
 
-      </div>
+                <li><img src="bar.png" style="width: 81px;
+        height: 8px;"></li>
+                    <li>Asthma Care</li>
+                    <li>Radio - MusicConnect</li>
+                    <li>Dignity Meal</li>
+                    <li>King Kog Bike</li>
 
 
-
-      <div class="col-sm-6 main-content2">
-
-        <div class="row">
-            <div class="col-sm-6" style="height: 240px; width: 100%; background-color: #70c1b3">
-
-            </div><!-- end of col-sm- 6 -->
-        </div><!-- end of row 1 -->
-
-
-        <div class="row">
-
-          <div class="col-sm-6" style="height: 280px; width: 100%; background-color: #445f71">
-
-          </div><!-- end of col-sm- 6 -->
-        </div><!-- end of row 2 -->
-
-        <div class="row">
-
-          <div class="col-sm-6" style="height: 204px; width: 100%; background-color: #433550">
-
-          </div><!-- end of col-sm- 6 -->
-        </div><!-- end of row 3 -->
+              </ul><!-- end of project list -->
 
 
 
-      </div><!-- main content section -->
+          </div><!-- end of the column -->
+
+
+
+<!-- ============ MAIN CONTENT  =================== -->
+
+
+
+      <div class="col-sm-6 main-content projects-main">
+
+          <div class="topbar">
+
+
+          </div><!-- end of topbar -->
+
+          <div class="middlebar">
+
+
+          </div><!-- end of middle bar -->
+
 
     </div><!-- end of row -->
 
 </div><!-- end of container -->
 
 
+
 <script src="js/main.js"></script>
-<!-- <script src="js/eyes.js"></script> -->
 
 <script>
   $(function(){
