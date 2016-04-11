@@ -585,6 +585,20 @@ body.projects {
 	);
 }
 
+body.welcome {
+  background-image: -webkit-gradient(linear,
+    left top,
+    right top,
+    color-stop(0, #eee),
+    color-stop(12%, #F5F5F5),
+    color-stop(12%, #F5F5F5),
+    color-stop(12%, #fff),
+    color-stop(14%, #fff),
+    color-stop(14%, #fff),
+    color-stop(100%, #fff)
+	);
+}
+
 
 
 .slicknav_icon-bar {
@@ -655,4 +669,31 @@ ul.projectlist{
 
 .projects-main{
   padding: 0;
+}
+
+.mainimg2{
+  margin-left: 328.666667px;
+  margin-top: 127.333333px !important;
+}
+
+.black{
+  color: black;
+}
+
+.welcometext{
+  width: 274px;
+  height: 84px;
+  margin-top: 52.4px;
+  margin-left: 333px;
+  font-size: 23.333333px;
+}
+
+.projectbutton{
+  margin-top: 181.333333px;
+  margin-left: 322px;
+}
+
+.greyline{
+  margin-top: 61%;
+  margin-left: 24%;
 }
