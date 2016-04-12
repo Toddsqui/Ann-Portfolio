@@ -4,6 +4,11 @@
  * licensed under MIT
  */
 
+ body{
+   overflow-y: auto;
+   overflow-x: hidden;
+ }
+
  .center{
    text-align: center;
  }
@@ -707,6 +712,7 @@ ul.projectlist{
   height: 42px;
   border-radius: 9px;
   padding: 10px;
+  margin: 0 auto;
 }
 
 .form-submit{
@@ -728,10 +734,39 @@ ul.projectlist{
   background-color: #db747a;
   height: 2px;
   width: 59px;
-  position: absolute;
+  position: relative;
   margin: 0 auto;
 }
 
 .contact{
   margin: 126px !important;
+}
+
+/* media queries for the form */
+
+@media screen and (max-width: 555px){
+  .form-field{
+    width: 322px;
+  }
+}
+
+@media screen and (max-width: 477px){
+  .form-field{
+    width: 257px;
+  }
+}
+
+@media screen and (max-width: 412px){
+  .form-field{
+    width: 222px;
+  }
+}
+
+@media screen and (max-width: 377px){
+  .form-field{
+    width: 186px;
+  }
+  .contact>h1{
+    font-size: 24px;
+  }
 }
