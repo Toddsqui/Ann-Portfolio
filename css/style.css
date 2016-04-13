@@ -717,8 +717,12 @@ ul.projectlist{
 
 .form-submit{
   float: right;
-  right: 28%;
+  right: 41%;
   position: absolute;
+  width: 147px;
+  border-radius: 10%;
+  background: #db747a;
+  border-color: #db747a;
 }
 
 .form-message{
@@ -769,4 +773,9 @@ ul.projectlist{
   .contact>h1{
     font-size: 24px;
   }
+}
+
+.thankyoubutton{
+  width: 261px;
+  margin-top: 105px;
 }
