@@ -272,7 +272,7 @@ ul#menu{
 
 @media screen and (max-width: 959px){
   body.index{
-    background-color: #fa7376 !important;
+    background-color: #fa7376;
   }
 }
 
@@ -286,7 +286,7 @@ ul#menu{
   }
 
   body.index{
-    background-color: #fa7376 !important;
+    background-color: #fa7376;
   }
   .slicknav_menu{
     background-image: url('../Group2.png'); max-width: 100%;
@@ -312,7 +312,7 @@ ul#menu{
   margin-left: 15%;
 }
 
-}
+} /* end of media query 767px */
 
 @media screen and (min-width: 768px){
   .slicknav_menu{

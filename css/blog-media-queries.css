@@ -1,0 +1,156 @@
+/* THESE ARE THE MEDIA QUERIES FOR THE BLOG */
+
+
+/* table styling  This establishes a baseline size for the tables */
+
+table{
+  border-spacing: 47px;
+  border-collapse: separate;
+}
+
+.tablebox{
+  margin: 10px;
+  width: 140pt;
+  height: 141.2pt;
+}
+
+/* for the table */
+@media screen and (max-width: 900px){
+td{
+    display: block;
+    width: 677px;
+  }
+
+  .tablebox{
+    margin: 14px;
+    width: 215pt;
+    height: 176.2pt;
+    margin-left: 55%;
+  }
+}
+
+@media screen and(max-width: 767px){
+  .col-sm-10{
+    margin-left: 20% !important;
+  }
+}
+
+@media screen and (max-width: 669px){
+  .tablebox{
+    margin: 14px;
+    width: 215pt;
+    height: 176.2pt;
+    margin-left: 35%;
+  } /* end of table box */
+} /* end of media query */
+
+@media screen and (max-width: 620px){
+  .tablebox{
+    margin: 14px;
+    width: 215pt;
+    height: 176.2pt;
+    margin-left: 25%;
+  } /* end of table box */
+} /* end of media query */
+
+@media screen and (max-width: 471px){
+  .tablebox{
+    margin: 14px;
+    width: 215pt;
+    height: 176.2pt;
+    margin-left: -11%;
+  }/* end of table box */
+}/* end of 471 media query */
+
+
+/* for the slick nav menu */
+
+@media screen and (min-width: 768px){
+ .slicknav_menu{
+   display: none;
+ }
+
+ @media screen and (max-width: 765px){
+   .slicknav_menu{
+     background-size: 7%;
+   }
+ }
+
+ @media screen and (max-width: 755px){
+   .slicknav_menu{
+     background-size: 7%;
+   }
+ }
+
+ @media screen and (max-width: 628px){
+   .slicknav_menu{
+     background-size: 8%;
+   }
+ }
+
+ @media (max-width:962px) and (min-width:542px) {
+
+   .slicknav_menu{
+     background-size: 9%;
+   }
+ }
+
+ @media screen and (max-width: 455px){
+   .slicknav_menu{
+     background-size: 13%;
+   }
+
+   .slicknav_menu{
+     padding-bottom: 14px;
+   }
+ }
+
+ @media screen and (max-width: 767px){
+
+   body {
+     background-image: -webkit-gradient(linear,
+       left top,
+       right top,
+       color-stop(0, #a5d1e8),
+       color-stop(12%, #a5d1e8),
+       color-stop(12%, #a5d1e8),
+       color-stop(12%, #a5d1e8),
+       color-stop(14%, #a5d1e8),
+       color-stop(14%, #a5d1e8),
+       color-stop(100%, #a5d1e8)
+   	);
+   }
+
+
+   .sidebar{
+     display: none !important;
+   }
+
+   .slicknav_menu{
+     background-image: url('../Group2.png'); max-width: 100%;
+     background-size: 8%;
+     background-repeat: no-repeat;
+     background-color: white;
+     border-bottom: 10px;
+     border-color: white;
+     border-style: solid;
+   }
+
+   .slicknav_menu li{
+     color: #4d4d4d;
+     font-size: 25px;
+   }
+
+   .slicknav_btn {
+     background-color: white;
+   }
+
+
+ #socialmedia{
+   margin-left: 15%;
+ }
+
+ } /* end of media query 767px */
+
+
+ /* end of slick nav menu */
