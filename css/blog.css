@@ -406,7 +406,68 @@ table{
   margin: 10px;
   width: 140pt;
   height: 141.2pt;
+  position: relative;
 }
+
+.blogbackground{
+  width: 140pt;
+  height: 141.2pt;
+  background: rgba(0, 0, 0, 0.5);
+ z-index: 1;
+}
+
+#followmebutton{
+  width: 112pt;
+  height: 22pt;
+}
+
+/* these last few snippets of code are for the very last column */
+.yellow{ /* this is for the yellow social media icons that appear on the blog page */
+  width: 26.7pt;
+  height: 24.9pt;
+  position: relative;
+}
+
+.yellow1{
+  margin-left: 72px;
+}
+
+.tdconnect{
+  text-align: right;
+}
+
+/* this is the end of the last td tag of the table */
+
+/* this is the actual title of the blog */
+
+
+
+.title{
+  color: white;
+  font-size: 12.5pt;
+}
+
+.date{
+  color: white;
+  position: relative;
+  top: 91%;
+  left: 51%;
+}
+
+#blogheader{
+  border: 1px solid white;
+  width: 107pt;
+  height: 112.2pt;
+  margin: 23px 23px 51px 23px;
+  position: absolute;
+  top: -2%;
+  z-index: 2;
+}
+
+
+
+
+/* end of table styling */
 
 
 /* for the side menu */

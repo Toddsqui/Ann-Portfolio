@@ -46,8 +46,9 @@
 <img src="Group.png" alt="" class="normalicon greenface">
       <ul id="menu">
           <a href="#" style="text-decoration: none; color: #000;"><li>About</li></a>
-          <a href="projects.html" style="text-decoration: none; color: #000;"><li>Projects</li></a>
-          <a href="index.html" style="text-decoration: none; color: #000;"><li>Content</li></a>
+          <a href="projects.html" style="text-decoration: none; color: #000;"><li>Portfolio</li></a>
+          <a href="blog.html" style="text-decoration: none; color: #000;"><li>Blog Posts</li></a>
+          <a href="index.html" style="text-decoration: none; color: #000;"><li>Contact</li></a>
         </ul>
 
       </div><!-- sidebar -->
@@ -59,15 +60,145 @@
             <table>
 
               <tr class="tablebox">
-                  <td style="background-color: black" class="tablebox">Testing</td>
-                  <td style="background-color: black" class="tablebox">Testing</td>
-                  <td style="background-color: black" class="tablebox">Testing</td>
+                  <td style="background: url('images/blog/image4.jpeg') no-repeat; background-size: cover; background-color: black; " class="tablebox">
+
+
+                      <div class="blogbackground">
+
+                          <div id="blogheader">
+                                <span class="title">Good Market User Research Report</span class="title">
+
+
+
+                          </div><!-- end of blogheader -->
+
+                          <div class="date">
+                            Nov 20, 2016
+
+                          </div>
+
+
+
+
+                      </div><!-- end of blogbackground -->
+
+
+                  </td>
+                  <td style="background: url('images/blog/image1.png') no-repeat; background-size: cover; " class="tablebox">
+
+
+                    <div class="blogbackground">
+
+                      <div id="blogheader">
+<span class="title">Side project - Lineup app case study</span class="title">
+
+
+
+                      </div><!-- end of blogheader -->
+                      <div class="date">
+                        Nov 20, 2016
+
+                      </div><!-- end of date -->
+
+
+                    </div><!-- end of blogbackground -->
+
+
+
+
+                  </td>
+                  <td style="background: url('images/blog/image3.jpeg') no-repeat; background-size: cover;" class="tablebox">
+
+
+                    <div class="blogbackground">
+
+                      <div id="blogheader">
+                        <span class="title">The Role of Content Strategy in Design Thinking</span class="title">
+
+
+
+
+                      </div><!-- end of blogheader -->
+
+                      <div class="date">
+                        Nov 20, 2016
+
+                      </div><!-- end of date -->
+
+
+
+
+                    </div><!-- end of blogbackground -->
+
+
+
+
+
+                  </td>
               </tr><!-- end of table row -->
 
               <tr>
-                <td style="background-color: black"  class="tablebox">bottom testing</td>
-                <td style="background-color: black" class="tablebox">bottom testing</td>
-                <td style="background-color: black" class="tablebox">bottom testing</td>
+                <td style="background: url('images/blog/image5.jpg') no-repeat; background-size: cover; "  class="tablebox">
+
+                  <div class="blogbackground">
+
+                    <div id="blogheader">
+                      <span class="title">A Brief History and Originals of Information Architecture</span class="title">
+
+
+
+
+                    </div><!-- end of blogheader -->
+
+                    <div class="date">
+                      Nov 20, 2016
+
+                    </div><!-- end of date -->
+
+
+                  </div><!-- end of blogbackground -->
+
+
+
+                </td>
+                <td style="background: url('images/blog/image2.jpg') no-repeat; background-size: cover; " class="tablebox">
+
+                  <div class="blogbackground">
+
+                    <div id="blogheader">
+                      <span class="title">A General Overview of the Field of UX Design</span class="title">
+
+
+
+
+                    </div><!-- end of blogheader -->
+
+                    <div class="date">
+                      Nov 20, 2016
+
+                    </div><!-- end of date -->
+
+
+
+
+                  </div><!-- end of blog background -->
+
+
+
+
+
+
+
+                </td>
+
+                <td class="tablebox tdconnect"><!-- this is the last td tag after the most recent blog -->
+                    <img src="images/followmebutton.png" alt="" id="followmebutton"><br/><br/>
+                    <img src="images/yellowpinterest.png" alt="" class="yellow yellow1">
+                    <img src="images/yellowtwitter.png" alt="" class="yellow yellow2">
+
+
+                </td><!-- end of tdconnect -->
+
               </tr><!-- end of table row -->
 
 
@@ -97,6 +228,10 @@
   $(function(){
     $('#menu').slicknav();
   })
+
+
+  var BackgroundOpaque = document.getElementByClassName(".blogbackground");
+
 
 </script>
 

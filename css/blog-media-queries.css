@@ -21,11 +21,25 @@ td{
     width: 677px;
   }
 
-  .tablebox{
+  .tablebox, .blogbackground{
     margin: 14px;
     width: 215pt;
     height: 176.2pt;
     margin-left: 55%;
+  }
+
+  .blogbackground{
+    margin-left: 0%;
+  }
+
+  #blogheader{
+    width: 178pt;
+    height: 146.2pt;
+  }
+
+  .date{
+    top: 91%;
+    left: 67%;
   }
 }
 
@@ -36,30 +50,42 @@ td{
 }
 
 @media screen and (max-width: 669px){
-  .tablebox{
+  .tablebox, .blogbackground{
     margin: 14px;
     width: 215pt;
     height: 176.2pt;
     margin-left: 35%;
   } /* end of table box */
+
+  .blogbackground{
+    margin-left: 0%;
+  }
 } /* end of media query */
 
 @media screen and (max-width: 620px){
-  .tablebox{
+  .tablebox, .blogbackground{
     margin: 14px;
     width: 215pt;
     height: 176.2pt;
     margin-left: 25%;
   } /* end of table box */
+
+  .blogbackground{
+    margin-left: 0%;
+  }
 } /* end of media query */
 
 @media screen and (max-width: 471px){
-  .tablebox{
+  .tablebox, .blogbackground{
     margin: 14px;
     width: 215pt;
     height: 176.2pt;
     margin-left: -11%;
   }/* end of table box */
+
+  .blogbackground{
+    margin-left: 0%;
+  }
 }/* end of 471 media query */
 
 
