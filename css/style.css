@@ -612,6 +612,38 @@ body.welcome {
 	);
 }
 
+body.asthma {
+  background-image: -webkit-gradient(linear,
+    left top,
+    right top,
+    color-stop(0, #eee),
+    color-stop(12%, #F5F5F5),
+    color-stop(12%, #F5F5F5),
+    color-stop(12%, #fff),
+    color-stop(14%, #fff),
+    color-stop(14%, #EBEBEB),
+    color-stop(40%, #EBEBEB),
+    color-stop(40%, #70c1b3),
+    color-stop(100%, #70c1b3)
+	);
+}
+
+body.radio {
+  background-image: -webkit-gradient(linear,
+    left top,
+    right top,
+    color-stop(0, #eee),
+    color-stop(12%, #F5F5F5),
+    color-stop(12%, #F5F5F5),
+    color-stop(12%, #fff),
+    color-stop(14%, #fff),
+    color-stop(14%, #EBEBEB),
+    color-stop(40%, #EBEBEB),
+    color-stop(40%, #445f71),
+    color-stop(100%, #445f71)
+	);
+}
+
 
 
 .slicknav_icon-bar {
