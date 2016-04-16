@@ -1,0 +1,78 @@
+.sidebar2 {
+  width: 0%;
+
+  background: #EBEBEB;
+  position: absolute;
+  top: 0;
+  left: 84%;
+  opacity:0;
+  display: table;
+  height: 100vh;
+  z-index: 1;
+}
+.sidebar2.off {
+  -webkit-animation: slideOut 0.5s forwards;
+          animation: slideOut 0.5s forwards;
+}
+.sidebar2.animation {
+  -webkit-animation: slideIn 0.5s forwards;
+          animation: slideIn 0.5s forwards;
+}
+.sidebar2 nav {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.sidebar2 nav h2 {
+  font-family: 'Oswald',sans-serif;
+  font-size: 1em;
+  margin-bottom: 20px;
+  color: #fa6450;
+}
+
+/* edit this to change the styles of the moving nav bar */
+.sidebar2 nav a {
+  display: block;
+  line-height: 3em;
+  font-family: 'Oswald',sans-serif;
+  text-decoration: none;
+  color: #000;
+  font-size: 2em;
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    width: : 0%;
+  opacity: 0;
+  }
+  100% {
+    width: 200%;
+    opacity: 1;
+  }
+}
+@keyframes slideIn {
+  0% {
+    width: 0%;
+    opacity: 0;
+  }
+  100% {
+      width: 200%;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes slideOut {
+  0% {
+      width: 36%;
+  }
+  100% {
+   width: 0%;
+  }
+}
+@keyframes slideOut {
+  0% {
+      width: 36%;
+  }
+  100% {
+   width: 0%;
+  }
+}
