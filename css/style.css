@@ -135,7 +135,7 @@
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
       border-radius: 6px;
-      color: #222; }
+      color: #fff; }
   .slicknav_nav .slicknav_txtnode {
     margin-left: 15px; }
   .slicknav_nav .slicknav_item a {
@@ -152,7 +152,14 @@
   padding: 7px 12px;
   height: 44px; }
 
-
+  .x_to_close_window{
+    visibility: hidden;
+    text-align: right;
+    margin-top: -5%;
+    margin-right: 2%;
+    font-size: 34px;
+    }
+} /* end of 960 resolution */
 
 /* design styles */
 
@@ -393,12 +400,17 @@ ul#menu{
     background-color: white;
   }
 
+
   body{
     background: #fa7376 !important;
   }
 
   body.welcome{
     background: #fff !important;
+  }
+
+  .x_to_close_window{
+    visibility: visible;
   }
 
 }
