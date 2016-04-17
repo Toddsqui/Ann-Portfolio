@@ -683,9 +683,11 @@ body.radio {
 
 /* this is the middle list on the page */
 
-ul.projectlist{
+ul.projectlist, .movablist{
   margin-left: 56px;
   text-align: left;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 .topbar{
