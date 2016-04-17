@@ -282,10 +282,7 @@ ul#menu{
   .sidebar{
     display: none !important;
   }
-
-  body {
-    background: #FED660 !important;
-  }
+}
 
   body.index{
     background-color: #fa7376;
@@ -393,9 +390,6 @@ ul#menu{
     background-color: white;
   }
 
-  body{
-    background: #fed660 !important;
-  }
 
   body.welcome{
     background: #fff !important;
