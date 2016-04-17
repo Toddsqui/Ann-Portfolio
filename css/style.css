@@ -9,6 +9,10 @@
    overflow-x: hidden;
  }
 
+ a{
+   color: black;
+ }
+
  .center{
    text-align: center;
  }
@@ -688,8 +692,16 @@ ul.projectlist, .movablist{
   text-align: left;
   text-decoration: none;
   list-style-type: none;
+  color: black;
 }
 
+.movablist.li{
+  margin-left: 13%;
+}
+
+.movablist:visited{
+  color: black;
+}
 .topbar{
   height: 225px;
   margin: 0 auto;
