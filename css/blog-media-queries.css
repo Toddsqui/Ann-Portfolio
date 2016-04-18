@@ -83,14 +83,30 @@ td{
 
 @media screen and (max-width: 471px){
   .tablebox, .blogbackground{
-    margin: 14px;
-    width: 215pt;
-    height: 176.2pt;
-    margin-left: -11%;
+    margin: 0px;
+    width: 348pt;
+    height: 246.2pt;
+    margin-left: -19%;
+    margin-top: -10%;
   }/* end of table box */
 
+#followmebutton{
+  margin-top: 49px;
+  float: left;
+}
+
+.yellowtags{
+  margin-left: -14%;
+  float: right;
+  display: inline;
+}
   .blogbackground{
     margin-left: 0%;
+  }
+
+  .blogheader{
+    width: 286pt;
+    height: 208.2pt;
   }
 }/* end of 471 media query */
 
