@@ -17,7 +17,14 @@
    text-align: center;
  }
 
-
+.movable_options{
+  font-size: 14px;
+  margin-top: 1%;
+  margin-left: 11.8%;
+}
+.mov_side{
+  margin-top: -4.3%;
+}
 .slicknav_btn {
   width: 30px;
   height: 30px;
@@ -714,6 +721,11 @@ ul.projectlist, .movablist{
   color: black;
 }
 
+.movablist{
+  margin-left: 19%;
+  margin-top: -6%;
+}
+
 .movablist.li{
   margin-left: 13%;
 }
@@ -737,11 +749,12 @@ ul.projectlist, .movablist{
 .middlemenu{
   width: 23.3333%;
   padding: 0;
+  margin-top: 12px;
 }
 
 .middlemenu h2{
   margin-top: 13px;
-  margin-left: 6px;
+  margin-left: 5.8px;
 }
 
 
