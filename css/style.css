@@ -166,6 +166,8 @@
     margin-top: -5%;
     margin-right: 2%;
     font-size: 34px;
+    cursor: pointer;
+    float: right;
     }
 } /* end of 960 resolution */
 
