@@ -17,6 +17,7 @@
    text-align: center;
  }
 
+
 .slicknav_btn {
   width: 30px;
   height: 30px;
@@ -153,7 +154,7 @@
   height: 44px; }
 
   .x_to_close_window{
-    visibility: hidden;
+    display: none;
     text-align: right;
     margin-top: -5%;
     margin-right: 2%;
@@ -182,7 +183,6 @@
 }
 
 .greenface{
-  position: fixed;
   left: 3%;
   top: 52%;
 }
@@ -213,8 +213,7 @@
   /*background-color: #F5F5F5;*/
   height: 130%;
   /*border-right: 25px solid white;*/
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: transparent;
 }
 
@@ -228,9 +227,13 @@ ul{
 }
 
 ul#menu{
-  position: fixed;
-  margin-left: 3%;
+  margin-left: 9%;
   top: 68%;
+  display: table;
+}
+
+ul a{
+  display: table-row;
 }
 
 .main-content{
@@ -410,7 +413,11 @@ ul#menu{
   }
 
   .x_to_close_window{
-    visibility: visible;
+    display: block;
+  }
+
+  .greenface{
+    display: none;
   }
 
 }
@@ -700,7 +707,7 @@ body.radio {
 /* this is the middle list on the page */
 
 ul.projectlist, .movablist{
-  margin-left: 56px;
+  margin-left: 55px;
   text-align: left;
   text-decoration: none;
   list-style-type: none;
@@ -730,6 +737,11 @@ ul.projectlist, .movablist{
 .middlemenu{
   width: 23.3333%;
   padding: 0;
+}
+
+.middlemenu h2{
+  margin-top: 13px;
+  margin-left: 6px;
 }
 
 

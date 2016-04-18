@@ -24,15 +24,31 @@
   text-align: center;
 }
 .sidebar2 nav h2 {
-  margin-left: 4%;
-  margin-top: -87%;
+  margin-top: -94%;
   font-size: 30px;
+  margin-left: 6%;
 }
+
+/* this goes for the bar that is under the heading in the movable sidebar */
+.bar_for_movable_sidebar{
+  width: 81px;
+  height: 8px;
+  margin-left: 11.5%;
+  margin-top: -2%;
+}
+
+/* the end of the movable sidebar bar */
 
 /* edit this to change the styles of the moving nav bar */
 .sidebar2 nav a {
   text-decoration: none;
   list-style-type: none;
+}
+
+/* this is for the animation side bar on the main page */
+
+nav h2{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @-webkit-keyframes slideIn {
