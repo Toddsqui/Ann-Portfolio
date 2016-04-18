@@ -14,6 +14,12 @@ table{
   height: 141.2pt;
 }
 
+@media screen and (max-width: 960px){
+  body.blog{
+    background: #a5d1e8 !important;
+  }
+}
+
 /* for the table */
 @media screen and (max-width: 900px){
 td{
