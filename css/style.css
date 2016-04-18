@@ -421,6 +421,14 @@ ul a{
     background: #fff !important;
   }
 
+  body.contactpage {
+    background: #FED660 !important;
+  }
+
+  body.confirmationpage {
+    background: #FED660 !important;
+  }
+
   .x_to_close_window{
     display: block;
   }
