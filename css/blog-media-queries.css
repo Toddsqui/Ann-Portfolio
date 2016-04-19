@@ -89,7 +89,9 @@ td{
   .blogbackground{
     margin-left: 0%;
   }
-} /* end of media query */
+
+
+} /* end of 620 */
 
 @media screen and (max-width: 471px){
   .tablebox, .blogbackground{
