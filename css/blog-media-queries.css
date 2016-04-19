@@ -79,10 +79,11 @@ td{
 /* 620 */
 @media screen and (max-width: 620px){
   .tablebox, .blogbackground{
-    margin: 14px;
+    margin: -24px;
     width: 215pt;
     height: 176.2pt;
-    margin-left: 25%;
+    margin-left: -30%;
+    top: -23px;
   } /* end of table box */
 
   .blogbackground{
