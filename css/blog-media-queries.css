@@ -38,15 +38,22 @@ td{
     margin-left: 0%;
   }
 
-  #blogheader{
-    width: 178pt;
-    height: 146.2pt;
-  }
+.blogheader{
+  border: 1px solid white;
+  width: 181pt;
+  height: 142.2pt;
+  margin: 23px 23px 51px 23px;
+  position: absolute;
+  top: -2%;
+  z-index: 2;
+}
 
   .date{
     top: 91%;
     left: 67%;
   }
+
+
 }
 
 @media screen and(max-width: 767px){
@@ -84,7 +91,7 @@ td{
 @media screen and (max-width: 471px){
   .tablebox, .blogbackground{
     margin: 0px;
-    width: 348pt;
+    width: 365pt;
     height: 246.2pt;
     margin-left: -19%;
     margin-top: -10%;
@@ -93,6 +100,7 @@ td{
 #followmebutton{
   margin-top: 49px;
   float: left;
+  padding-left: 18px;
 }
 
 .yellowtags{
@@ -101,14 +109,47 @@ td{
   display: inline;
 }
   .blogbackground{
-    margin-left: 0%;
+    margin-left: 3%;
+    width: 532px;
   }
 
   .blogheader{
-    width: 286pt;
-    height: 208.2pt;
+    border: 1px solid white;
+    width: 304pt;
+    height: 178.2pt;
+    margin: 23px 30px 41px 23px;
+    position: absolute;
+    top: -2%;
+    z-index: 2;
+    left: 5%;
   }
-}/* end of 471 media query */
+
+  .date {
+    top: 79%;
+    left: 67%;
+  }
+
+/* The following two tags will adjust the heights separately of the backgrounds that would otherwise have misshapen heights from the browser changing */
+  #thirdarticle{
+    height: 287px;
+  }
+
+  #lastarticle{
+    height: 287px;
+  }
+
+#whiteborder_for_last_article{
+  height: 207.2pt;
+}
+
+#date_for_last_article{
+  top: 91%;
+  left: 67%;
+}
+
+  /*this is the end of the adjusting of the two heights */
+
+} /* end of 471 media query */
 
 
 /* for the slick nav menu */
