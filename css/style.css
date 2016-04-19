@@ -429,6 +429,10 @@ ul a{
     background: #FED660 !important;
   }
 
+  body.sayhello{
+    background: #FED660 !important;
+  }
+
   .x_to_close_window{
     display: block;
   }
