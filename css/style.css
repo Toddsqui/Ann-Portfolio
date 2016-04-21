@@ -687,6 +687,22 @@ body.radio {
 	);
 }
 
+body.featuredprojects{
+  margin-top: 0px;
+  background-image: -webkit-gradient(linear,
+    left top,
+    right top,
+    color-stop(0, #eee),
+    color-stop(12%, #F5F5F5),
+    color-stop(12%, #F5F5F5),
+    color-stop(12%, #fff),
+    color-stop(14%, #fff),
+    color-stop(14%, #EBEBEB),
+    color-stop(40%, #EBEBEB),
+    color-stop(40%, #fff),
+    color-stop(100%, #fff)
+	);
+}
 
 
 
@@ -892,4 +908,35 @@ ul.projectlist, .movablist{
 
 .sidebar2.vis{
   visibility: visible;
+}
+
+
+/* this is for the featured projects section */
+
+.featuredprojectscontainer{
+  width: 79%;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  position: relative;
+  float: right;
+  left: 30%;
+}
+
+#firstad{
+  background-color: #70c1b3;
+  width: 900px;
+  height: 209pt;
+  visibility: hidden;
+  margin-left: -14px;
+}
+
+#secondad{
+  margin-top: 13.333px;
+  width: 900px;
+  height: 223pt;
+  background-color: blue;
+  visibility: hidden;
+  opacity: 0;
+  margin-left: -14px;
 }

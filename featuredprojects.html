@@ -30,12 +30,11 @@
 
   <link rel="stylesheet" href="css/style.css" type="text/css" />
   <link rel="stylesheet" href="css/test2.css" type="text/css" />
-
-
-
+  <link rel="stylesheet" href="css/animations.css">
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 </head>
 
-<body class="asthma">
+<body class="featuredprojects">
   <div class="container">
     <div class="row">
 
@@ -63,9 +62,7 @@
 
         <div class="sidebar3">
           <nav>
-            <a href="featuredprojects.html" style="text-decoration: none;">
             <h2>Featured Projects</h2>
-            </a>
 
             <ul class="movablist" style="margin-left: 19%;">
               <li><img src="bar.png" class="bar_for_movable_sidebar"></li>
@@ -91,9 +88,18 @@
 
 
 
-      <div class="col-sm-6 main-content projects-main">
+      <div class="col-sm-6">
+        <div class="featuredprojectscontainer">
+            <div id="firstad" class="slideDown" >
 
 
+            </div><!-- end of first ad -->
+
+            <div id="secondad" class="animationdelay invisible slideDown2">
+
+            </div><!-- end of second ad -->
+
+        </div><!-- end of featured projects container -->
 
 
       </div>
@@ -115,9 +121,15 @@
 
       $(function(){
         $('#menu').slicknav();
-      })
+      });
+
+
 
     </script>
+
+
+
+
 
 
 </body>
