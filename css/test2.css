@@ -1,0 +1,45 @@
+.sidebar3 {
+  width: 156.2%;
+  background: #EBEBEB;
+  position: absolute;
+  top: 0;
+  left: 84%;
+  opacity:1;
+  display: table;
+  height: 100vh;
+  z-index: 12;
+}
+
+.sidebar3 nav {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.sidebar3 nav h2 {
+  margin-top: -88%;
+  font-size: 30px;
+  margin-left: 6%;
+
+}
+
+/* this goes for the bar that is under the heading in the movable sidebar */
+.bar_for_movable_sidebar{
+  width: 81px;
+  height: 8px;
+  margin-left: 11.5%;
+  margin-top: -2%;
+}
+
+/* the end of the movable sidebar bar */
+
+/* edit this to change the styles of the moving nav bar */
+.sidebar3 nav a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* this is for the animation side bar on the main page */
+
+nav h2{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}

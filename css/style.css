@@ -874,3 +874,20 @@ ul.projectlist, .movablist{
   width: 261px;
   margin-top: 105px;
 }
+
+/* this is for the welcome page */
+
+.yellowbackground {
+  content: "";
+  position: absolute;
+  background: #f9e97c;
+  margin-top: 24%;
+  width: 150px;
+  height: 100px;
+  shape-outside: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+  hshape-margin: 20px;
+}
+
+.sidebar2.vis{
+  visibility: visible;
+}
