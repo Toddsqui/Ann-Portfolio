@@ -671,6 +671,7 @@ body.asthma {
 }
 
 body.radio {
+  margin-top: 0px;
   background-image: -webkit-gradient(linear,
     left top,
     right top,
@@ -685,6 +686,7 @@ body.radio {
     color-stop(100%, #445f71)
 	);
 }
+
 
 
 
