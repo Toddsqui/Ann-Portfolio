@@ -77,8 +77,8 @@
       -webkit-align-self: auto;
   }
   .flexbox-child{
-      height: 100px;
-      width: 15%;
+      height: 211px;
+      width: 29%;
       background-color: #64b9e3;
       margin: 15px;
       padding: 10px;
@@ -86,6 +86,46 @@
       font-size: 120%;
       text-align: center;
   }
+
+@media screen and (max-width: 960px){
+  .container{
+    width: 108%;
+  }
+}
+
+@media screen and (max-width: 819px){
+  .flexbox-child{
+    width: 28%;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .container{
+    padding-right: 5%;
+  }
+}
+
+@media screen and (max-width: 635px){
+  .flexbox-child{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .row{
+    margin-left: -44px;
+  }
+
+  .container{
+    padding-right: 2%;
+  }
+}
+
+@media screen and (max-width: 494px){
+  .container{
+    padding-right: 1%;
+  }
+}
 
   </style>
 
@@ -149,12 +189,9 @@
               <div class="flexbox-child flexbox-child-item-1">1</div>
               <div class="flexbox-child flexbox-child-item-2">2</div>
               <div class="flexbox-child flexbox-child-item-3">3</div>
-          </div>
-
-          <div class="flexbox-container">
-              <div class="flexbox-child flexbox-child-item-1">1</div>
-              <div class="flexbox-child flexbox-child-item-2">2</div>
-              <div class="flexbox-child flexbox-child-item-3">3</div>
+              <div class="flexbox-child flexbox-child-item-1">4</div>
+              <div class="flexbox-child flexbox-child-item-2">5</div>
+              <div class="flexbox-child flexbox-child-item-3">6</div>
           </div>
 
 
