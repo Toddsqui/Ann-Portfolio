@@ -928,7 +928,6 @@ ul.projectlist, .movablist{
   width: 900px;
   height: 209pt;
   visibility: hidden;
-  margin-left: -14px;
 }
 
 #secondad{
@@ -937,6 +936,5 @@ ul.projectlist, .movablist{
   height: 223pt;
   background-color: blue;
   visibility: hidden;
-  opacity: 0;
-  margin-left: -14px;
+  opacity:0;
 }

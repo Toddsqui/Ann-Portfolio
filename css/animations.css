@@ -18,14 +18,15 @@ slideDown
 ==============================================
 */
 
-.invisible, .notvisible{
-	visibility: hidden;
-}
-
 .animationdelay{
 	-webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
 	animation-delay: 2s;
 }
+
+.invisible, .notvisible{
+	visibility: hidden;
+}
+
 
 .slideDown{
 	animation-name: slideDown;
@@ -93,8 +94,8 @@ More delayed slideDown
 	animation-delay: 3s;
 	animation-delay: 2s, 4ms;
 	animation-name: slideDown2;
-	-webkit-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 	-webkit-animation-name: slideDown2;
 	animation-duration: 1s;
 	-webkit-animation-duration: 1s;
@@ -110,6 +111,7 @@ More delayed slideDown
 @keyframes slideDown2 {
 	0% {
 		transform: translateY(-100%);
+    opacity: 1;
 	}
 	50%{
 		transform: translateY(8%);
@@ -125,14 +127,14 @@ More delayed slideDown
 	}
 	100% {
 		transform: translateY(0%);
-		opacity: 1;
+    opacity: 1;
 	}
 }
 
 @-webkit-keyframes slideDown2 {
 	0% {
 		-webkit-transform: translateY(-100%);
-		opacity: 1;
+    opacity: 1;
 	}
 	50%{
 		-webkit-transform: translateY(8%);
@@ -148,10 +150,9 @@ More delayed slideDown
 	}
 	100% {
 		-webkit-transform: translateY(0%);
-		opacity: 1;
+    opacity: 1;
 	}
 }
-
 
 
 /*
