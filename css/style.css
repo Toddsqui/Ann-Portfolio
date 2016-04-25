@@ -924,7 +924,8 @@ ul.projectlist, .movablist{
 }
 
 #firstad{
-  background-color: #70c1b3;
+  /*background: url('images/featuredprojects/picture1.svg');
+  background-size: cover;*/
   width: 900px;
   height: 209pt;
   visibility: hidden;
@@ -937,4 +938,14 @@ ul.projectlist, .movablist{
   background-color: blue;
   visibility: hidden;
   opacity:0;
+}
+
+#picture1{
+  width: 900px;
+  height: 282.33px;
+}
+
+#picture2{
+  width: 900px;
+  height: 297.33px;
 }

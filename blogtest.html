@@ -76,16 +76,94 @@
       align-self: auto;
       -webkit-align-self: auto;
   }
-  .flexbox-child{
+  .flexbox-child {
       height: 211px;
       width: 29%;
-      background-color: #64b9e3;
       margin: 15px;
       padding: 10px;
       color: #FFF;
       font-size: 120%;
       text-align: center;
+      z-index: 0;
   }
+
+  .flexbox-black{
+    height: 211px;
+    width: 108%;
+    margin: -10px;
+    padding: 10px;
+    background-color: #000;
+    font-size: 120%;
+    text-align: center;
+    z-index: 1;
+    opacity: .3;
+  }
+
+  .news{
+    border: 5px solid white;
+    height: 211px;
+    width: 108%;
+    margin: -10px;
+    padding: 10px;
+    font-size: 120%;
+    text-align: center;
+    z-index: 2;
+
+  }
+
+  .pin:after{
+    content: "";
+    float: none;
+    clear: both;
+  }
+
+/* this is for styling of the images */
+.flexbox-child-item-1{
+  background: url('images/blog/image4.jpeg') no-repeat;
+  background-size: cover;
+  background-color: #000;
+}
+
+.flexbox-child-item-2{
+  background: url('images/blog/image1.png') no-repeat;
+  background-size: cover;
+  background-color: #000;
+}
+
+
+.flexbox-child-item-3{
+  background: url('images/blog/image3.jpeg') no-repeat;
+  background-size: cover;
+  background-color: #000;
+}
+
+.flexbox-child-item-4{
+  background: url('images/blog/image5.jpg') no-repeat;
+  background-size: cover;
+  background-color: #000;
+}
+
+
+.flexbox-child-item-5{
+  background: url('images/blog/image2.jpg') no-repeat;
+  background-size: cover;
+  background-color: #000;
+}
+
+
+/* end of styling of boxes */
+
+@media screen and (max-width: 1434px){
+  .flexbox-black{
+    width: 107.71%;
+  }
+}
+
+@media screen and (max-width: 1081px){
+  .flexbox-black{
+    width: 110%;
+  }
+}
 
 @media screen and (max-width: 960px){
   .container{
@@ -97,20 +175,59 @@
   .flexbox-child{
     width: 28%;
   }
+
+  .flexbox-black{
+    width: 112%;
+  }
 }
 
 @media screen and (max-width: 767px){
   .container{
     padding-right: 5%;
   }
+
+  .flexbox-black{
+    width: 111%;
+  }
 }
 
-@media screen and (max-width: 635px){
+@media screen and (max-width: 648px){
+  .flexbox-black{
+    width: 113%;
+  }
+}
+
+  @media screen and (max-width: 635px){
   .flexbox-child{
     width: 50%;
     margin: 0;
     padding: 0;
+    float: left;
+    }
+    .flexbox-container {
+      margin-left: -6%;
+    }
+
+    .flexbox-black{
+      height: 211px;
+      width: 100%;
+      margin: 0px;
+      padding: 10px;
+      background-color: #000;
+      font-size: 120%;
+      text-align: center;
+      z-index: 1;
+      opacity: .4;
+    }
   }
+
+  @media screen and (max-width: 469px){
+    .flexbox-child{
+      width: 101%;
+      margin: 0;
+      padding: 0;
+    }
+
 
   .row{
     margin-left: -44px;
@@ -119,11 +236,16 @@
   .container{
     padding-right: 2%;
   }
-}
 
-@media screen and (max-width: 494px){
   .container{
     padding-right: 1%;
+  }
+}
+
+
+@media screen and (max-width: 394px){
+  .flexbox-child{
+    width: 107%;
   }
 }
 
@@ -186,12 +308,57 @@
       <div class="col-sm-10 main-blog-content">
         <div class="container">
           <div class="flexbox-container">
-              <div class="flexbox-child flexbox-child-item-1">1</div>
-              <div class="flexbox-child flexbox-child-item-2">2</div>
-              <div class="flexbox-child flexbox-child-item-3">3</div>
-              <div class="flexbox-child flexbox-child-item-1">4</div>
-              <div class="flexbox-child flexbox-child-item-2">5</div>
-              <div class="flexbox-child flexbox-child-item-3">6</div>
+              <div class="news">
+              <div class="flexbox-child flexbox-child-item-1">
+
+                  <div class="flexbox-black">
+
+
+
+
+
+                      </div><!--  end of flexbox black -->
+
+                  </div><!-- end of flexbox -->
+
+
+              </div><!-- end of news -->
+
+              <div class="flexbox-child flexbox-child-item-2">
+
+                <div class="flexbox-black">
+
+
+
+                </div><!-- end of flexbox black -->
+              </div>
+
+              <div class="flexbox-child flexbox-child-item-3">
+                <div class="flexbox-black">
+
+
+
+                </div><!-- end of flexbox black -->
+
+              </div>
+              <div class="flexbox-child flexbox-child-item-4">
+
+                <div class="flexbox-black">
+
+
+
+                </div><!-- end of flexbox black -->
+
+              </div>
+              <div class="flexbox-child flexbox-child-item-5">
+
+                <div class="flexbox-black">
+
+
+
+                </div><!-- end of flexbox black -->
+              </div>
+              <div class="flexbox-child flexbox-child-item-6"></div>
           </div>
 
 
