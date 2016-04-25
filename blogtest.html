@@ -46,7 +46,7 @@
       -webkit-align-items: flex-start;
       align-content: flex-start;
   }
-  .flexbox-child-item-1{
+  .flexbox-child-item-1, .blackbox{
       order: 0;
       -webkit-order: 0;
       flex-grow: 0;
@@ -89,10 +89,20 @@
 
 /* Setting the background images */
 
+.blackbox{
+  background-color: black;
+  width: 239px;
+  height: 211px;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+
 .flexbox-child-item-1{
   background: url('images/blog/image4.jpeg') no-repeat;
   background-size: cover;
 }
+
+
 .flexbox-child-item-2{
   background: url('images/blog/image1.png') no-repeat;
   background-size: cover;
@@ -212,8 +222,22 @@
       <div class="col-sm-10 main-blog-content">
         <div class="container">
           <div class="flexbox-container">
-              <div class="flexbox-child flexbox-child-item-1"></div>
-              <div class="flexbox-child flexbox-child-item-2"></div>
+              <div class="flexbox-child flexbox-child-item-1">
+                  <div class="blackbox">
+
+
+                  </div><!-- end of blackbox -->
+
+
+              </div>
+              <div class="flexbox-child flexbox-child-item-2">
+                <div class="blackbox">
+
+
+                </div><!-- end of blackbox -->
+
+
+              </div>
               <div class="flexbox-child flexbox-child-item-3"></div>
               <div class="flexbox-child flexbox-child-item-4"></div>
               <div class="flexbox-child flexbox-child-item-5"></div>
