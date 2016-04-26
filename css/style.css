@@ -647,10 +647,10 @@ body.welcome {
     color-stop(0, #eee),
     color-stop(12%, #F5F5F5),
     color-stop(12%, #F5F5F5),
-    color-stop(12%, #fff),
-    color-stop(14%, #fff),
-    color-stop(14%, #fff),
-    color-stop(100%, #fff)
+    color-stop(12%, #f9e97c),
+    color-stop(14%, #f9e97c),
+    color-stop(14%, #f9e97c),
+    color-stop(100%, #f9e97c)
 	);
 }
 
@@ -964,4 +964,31 @@ ul.projectlist, .movablist{
   opacity: 0;
   width: 400px;
   margin-top: -9px;
+}
+
+.white1{
+
+
+}
+
+.white2{
+  background-color: white;
+  width: 200vh;
+  height: 67vh;
+
+}
+
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+.css-shapes-preview{
+  width: 200vh;
+  height: 34vh;
+    position: relative;
+    transform: rotate(13deg);
+    -webkit-transform: rotate(13deg);
+    border-top: 100px solid transparent;
+    border-left: 200px solid #fff;
+    border-bottom: 100px solid transparent;
 }
