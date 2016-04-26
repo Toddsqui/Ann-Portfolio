@@ -940,12 +940,28 @@ ul.projectlist, .movablist{
   opacity:0;
 }
 
+#thirdad{
+  background-color: #4ab5d2;
+  width: 900px;
+  height: 209pt;
+  margin-top: 12px;
+  visibility: invisible;
+  margin-left: 2px;
+}
+
 #picture1{
   width: 900px;
   height: 282.33px;
+  margin-left: 2px;
 }
 
 #picture2{
   width: 900px;
   height: 297.33px;
+}
+
+#featuredgraphic{
+  opacity: 0;
+  width: 400px;
+  margin-top: -9px;
 }

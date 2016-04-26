@@ -89,13 +89,16 @@
 
 /* Setting the background images */
 
-.blackbox{
+.blackbox, #blackbox1{
+  display: none;
   background-color: black;
-  width: 239px;
+  width: 242px;
   height: 211px;
   margin-left: -10px;
   margin-top: -10px;
+  opacity: .5
 }
+
 
 .flexbox-child-item-1{
   background: url('images/blog/image4.jpeg') no-repeat;
@@ -223,7 +226,7 @@
         <div class="container">
           <div class="flexbox-container">
               <div class="flexbox-child flexbox-child-item-1">
-                  <div class="blackbox">
+                  <div class="blackbox" id="blackbox1">
 
 
                   </div><!-- end of blackbox -->
@@ -270,6 +273,7 @@
     $(function() {
       $('#menu').slicknav();
     })
+
   </script>
 
 
