@@ -22,7 +22,7 @@
   <!-- jquery -->
   <script src="jquery-2.2.2.min.js"></script>
   <!-- Slick Nav -->
-  <link rel="stylesheet" href="SlickNav/slicknav2.css" />
+  <link rel="stylesheet" href="SlickNav/slicknav.css" />
 
   <script src="SlickNav/jquery.slicknav.min.js"></script>
 
@@ -31,7 +31,270 @@
   <link rel="stylesheet" href="css/blog.css" type="text/css" />
   <link rel="stylesheet" href="css/blog-media-queries.css" />
 
+  <style>
+  .flexbox-container{
+      height: 141.2ptpx;
+      width: 140ptpx;
+      display: flex;
+      flex-direction: row;
+      -webkit-flex-direction: row;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      justify-content: flex-start;
+      -webkit-justify-content: flex-start;
+      align-items: flex-start;
+      -webkit-align-items: flex-start;
+      align-content: flex-start;
+  }
+  .flexbox-child-item-1, .blackbox, #blackbox1, #blackbox2{
+      order: 0;
+      -webkit-order: 0;
+      flex-grow: 0;
+      -webkit-flex-grow: 0;
+      flex-shrink: 0;
+      -webkit-flex-shrink: 0;
+      align-self: auto;
+      -webkit-align-self: auto;
+  }
+  .flexbox-child-item-2{
+      order: 0;
+      -webkit-order: 0;
+      flex-grow: 0;
+      -webkit-flex-grow: 0;
+      flex-shrink: 0;
+      -webkit-flex-shrink: 0;
+      align-self: auto;
+      -webkit-align-self: auto;
+  }
+  .flexbox-child-item-3{
+      order: 0;
+      -webkit-order: 0;
+      flex-grow: 0;
+      -webkit-flex-grow: 0;
+      flex-shrink: 0;
+      -webkit-flex-shrink: 0;
+      align-self: auto;
+      -webkit-align-self: auto;
+  }
+  .flexbox-child{
+      height: 211px;
+      width: 29%;
+      background-color: #64b9e3;
+      margin: 15px;
+      color: #FFF;
+      font-size: 120%;
+      text-align: center;
+  }
 
+/* Setting the background images */
+
+.blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+  display: none;
+  background-color: black;
+  width: 100%;
+  height: inherit;
+  opacity: .7;
+}
+
+
+.heading{
+  position: relative;
+  display: none;
+  top: 20px;
+  z-index: 1;
+}
+
+#heading, #heading2, #heading3, #heading4, #heading5{
+  display: none;
+}
+
+
+
+.flexbox-child-item-1{
+  background: url('images/blog/image4.jpeg') no-repeat;
+  background-size: cover;
+}
+
+
+.flexbox-child-item-2{
+  background: url('images/blog/image1.png') no-repeat;
+  background-size: cover;
+}
+
+.flexbox-child-item-3{
+  background: url('images/blog/image3.jpeg') no-repeat;
+  background-size: cover;
+}
+
+.flexbox-child-item-4{
+  background: url('images/blog/image2.jpg') no-repeat;
+  background-size: cover;
+}
+
+.flexbox-child-item-5{
+  background: url('images/blog/image5.jpg') no-repeat;
+  background-size: cover;
+}
+
+.flexbox-child-item-6{
+  display: none;
+}
+
+
+
+
+@media screen and (max-width: 960px){
+  .container{
+    width: 108%;
+  }
+}
+@media screen and (max-width: 819px){
+  .flexbox-child{
+    width: 28%;
+  }
+}
+@media screen and (max-width: 767px){
+  .container{
+    padding-right: 5%;
+  }
+
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -34%;
+  }
+}
+
+@media screen and (max-width: 753px){
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -56%;
+  }
+}
+
+@media screen and (max-width: 714px){
+
+}
+
+@media screen and (max-width: 697px){
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -59%;
+  }
+}
+
+@media screen and (max-width: 656px){
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -62%;
+  }
+}
+
+
+@media screen and (max-width: 635px){
+  .flexbox-child{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+  .row{
+    margin-left: -44px;
+  }
+  .container{
+    padding-right: 2%;
+  }
+
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -21%;
+  }
+}
+
+@media screen and (max-width: 580px){
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -24%;
+  }
+}
+
+@media screen and (max-width: 528px){
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -27%;
+  }
+}
+@media screen and (max-width: 494px){
+  .container{
+    padding-right: 1%;
+  }
+}
+
+@media screen and (max-width: 462px){
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -30%;
+  }
+}
+
+@media screen and (max-width: 423px){
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -53%;
+  }
+}
+
+@media screen and (max-width: 384px){
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -60%;
+  }
+}
+  </style>
+
+  <script>
+  // $(document).ready(function(){
+  //   $('.flexbox-child').mouseenter(function(){
+  //     $(this).find('.blackbox').show();
+  //   });
+  // }); /* this will make the image hover effects work */
+
+  $(window).load(function() {
+  	$(".flexbox-child-item-1").mouseenter(function() {
+           $('#blackbox1').toggle();
+           $('#heading').toggle();
+  	}).mouseleave(function () {
+      $('#blackbox1').toggle();
+  		$('#heading').toggle();
+  	}); /* ths is the end of flex child */
+
+
+    $(".flexbox-child-item-2").mouseenter(function() {
+           $('#blackbox2').toggle();
+           $('#heading2').toggle();
+    }).mouseleave(function () {
+      $('#blackbox2').toggle();
+      $('#heading2').toggle();
+    }); /* ths is the end of flex child */
+
+
+    $(".flexbox-child-item-3").mouseenter(function() {
+           $('#blackbox3').toggle();
+           $('#heading3').toggle();
+    }).mouseleave(function () {
+      $('#blackbox3').toggle();
+      $('#heading3').toggle();
+    }); /* ths is the end of flex child */
+
+    $(".flexbox-child-item-4").mouseenter(function() {
+           $('#blackbox4').toggle();
+           $('#heading4').toggle();
+    }).mouseleave(function () {
+      $('#blackbox4').toggle();
+      $('#heading4').toggle();
+    }); /* ths is the end of flex child */
+
+    $(".flexbox-child-item-5").mouseenter(function() {
+           $('#blackbox5').toggle();
+           $('#heading5').toggle();
+    }).mouseleave(function () {
+      $('#blackbox5').toggle();
+      $('#heading5').toggle();
+    }); /* ths is the end of flex child */
+
+
+
+  }); /* this is the end of load */
+
+  </script>
 </head>
 
 
@@ -48,7 +311,7 @@
         <a href="welcome.html"><img src="Group2.png" alt="" class="normalicon at" style="margin-bottom: 120%; margin-top: 23px;"></a>
 
 
-        <ul id="menu" style="margin-left: 15.875px;">
+        <ul id="menu">
           <li>
             <img src="Group.png" alt="" class="normalicon greenface">
           </li>
@@ -87,178 +350,71 @@
 
       <div class="col-sm-10 main-blog-content">
         <div class="container">
-          <table>
+          <div class="flexbox-container">
+              <div class="flexbox-child flexbox-child-item-1">
+                <h1 id="heading" class="col-sm-2 heading">This a test</h1>
+                  <div class="blackbox" id="blackbox1">
 
-            <tr class="tablebox">
-              <td style="background: url('images/blog/image4.jpeg') no-repeat; background-size: cover; background-color: black; " class="tablebox">
 
 
-                <div class="blogbackground">
+                  </div><!-- end of blackbox -->
 
-                  <div class="blogheader">
-                    <span class="title">Good Market User Research Report</span class="title">
 
+              </div>
+              <div class="flexbox-child flexbox-child-item-2">
+                <h1 id="heading2" class="col-sm-2 heading">This a test</h1>
+                  <div class="blackbox" id="blackbox2">
+                    <div class="blackbox">
 
 
-                  </div>
-                  <!-- end of blogheader -->
 
-                  <div class="date">
-                    Nov 20, 2016
+                    </div><!-- end of blackbox -->
 
-                  </div>
 
+                  </div><!-- end of blackbox -->
 
 
 
-                </div>
-                <!-- end of blogbackground -->
+              </div>
+              <div class="flexbox-child flexbox-child-item-3">
+              <h1 id="heading3" class="col-sm-2 heading">This a test</h1>
+                <div class="blackbox" id="blackbox3">
+                  <div class="blackbox">
 
 
-              </td>
-              <td style="background: url('images/blog/image1.png') no-repeat; background-size: cover; " class="tablebox">
 
+                  </div><!-- end of blackbox -->
 
-                <div class="blogbackground">
+                </div><!-- end of blackbox -->
 
-                  <div class="blogheader">
-                    <span class="title">Side project - Lineup app case study</span class="title">
+              </div>
+              <div class="flexbox-child flexbox-child-item-4">
+                <h1 id="heading4" class="col-sm-2 heading">This a test</h1>
+                <div class="blackbox" id="blackbox4">
+                  <div class="blackbox">
 
 
 
-                  </div>
-                  <!-- end of blogheader -->
-                  <div class="date">
-                    Nov 20, 2016
+                  </div><!-- end of blackbox -->
 
-                  </div>
-                  <!-- end of date -->
+                </div><!-- end of blackbox -->
 
 
-                </div>
-                <!-- end of blogbackground -->
 
+              </div>
+              <div class="flexbox-child flexbox-child-item-5">
+              <h1 id="heading5" class="col-sm-2 heading">This a test</h1>
+                <div class="blackbox" id="blackbox5">
+                  <div class="blackbox">
 
 
 
-              </td>
-              <td style="background: url('images/blog/image3.jpeg') no-repeat; background-size: cover;" class="tablebox" id="thirdarticle">
+                  </div><!-- end of blackbox -->
 
-
-                <div class="blogbackground">
-
-                  <div class="blogheader">
-                    <span class="title">The Role of Content Strategy in Design Thinking</span class="title">
-
-
-
-
-                  </div>
-                  <!-- end of blogheader -->
-
-                  <div class="date">
-                    Nov 20, 2016
-
-                  </div>
-                  <!-- end of date -->
-
-
-
-
-                </div>
-                <!-- end of blogbackground -->
-
-
-
-
-
-              </td>
-            </tr>
-            <!-- end of table row -->
-
-            <tr>
-              <td style="background: url('images/blog/image5.jpg') no-repeat; background-size: cover; " class="tablebox">
-
-                <div class="blogbackground">
-
-                  <div class="blogheader">
-                    <span class="title">A Brief History and Originals of Information Architecture</span class="title">
-
-
-
-
-                  </div>
-                  <!-- end of blogheader -->
-
-                  <div class="date">
-                    Nov 20, 2016
-
-                  </div>
-                  <!-- end of date -->
-
-
-                </div>
-                <!-- end of blogbackground -->
-
-
-
-              </td>
-              <td style="background: url('images/blog/image2.jpg') no-repeat; background-size: cover; " class="tablebox" id="#lastarticle">
-
-                <div class="blogbackground">
-
-                  <div class="blogheader" id="whiteborder_for_last_article">
-                    <span class="title">A General Overview of the Field of UX Design</span class="title">
-
-
-
-
-                  </div>
-                  <!-- end of blogheader -->
-
-                  <div class="date" id="date_for_last_article">
-                    Nov 20, 2016
-
-                  </div>
-                  <!-- end of date -->
-
-
-
-
-                </div>
-                <!-- end of blog background -->
-
-
-
-
-
-
-
-              </td>
-
-              <td class="tablebox tdconnect">
-                <!-- this is the last td tag after the most recent blog -->
-                <img src="images/followmebutton.png" alt="" id="followmebutton">
-                <br/>
-                <br/>
-                <div class="yellowtags">
-                  <img src="images/yellowpinterest.png" alt="" class="yellow yellow1">
-                  <img src="images/yellowtwitter.png" alt="" class="yellow yellow2">
-                </div>
-                <!-- end of yellow tags -->
-
-
-              </td>
-              <!-- end of tdconnect -->
-
-            </tr>
-            <!-- end of table row -->
-
-
-
-
-          </table>
-          <!-- end of table -->
+                </div><!-- end of blackbox -->
+              </div>
+              <div class="flexbox-child flexbox-child-item-6"></div>
+          </div>
 
 
 
@@ -286,7 +442,10 @@
     $(function() {
       $('#menu').slicknav();
     })
+
   </script>
+
+
 
 
 </body>
