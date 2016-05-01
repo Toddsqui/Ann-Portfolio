@@ -46,7 +46,7 @@
       -webkit-align-items: flex-start;
       align-content: flex-start;
   }
-  .flexbox-child-item-1, .blackbox{
+  .flexbox-child-item-1, .blackbox, #blackbox1, #blackbox2{
       order: 0;
       -webkit-order: 0;
       flex-grow: 0;
@@ -81,7 +81,6 @@
       width: 29%;
       background-color: #64b9e3;
       margin: 15px;
-      padding: 10px;
       color: #FFF;
       font-size: 120%;
       text-align: center;
@@ -89,15 +88,26 @@
 
 /* Setting the background images */
 
-.blackbox, #blackbox1{
+.blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
   display: none;
   background-color: black;
-  width: 242px;
-  height: 211px;
-  margin-left: -10px;
-  margin-top: -10px;
-  opacity: .5
+  width: 100%;
+  height: inherit;
+  opacity: .7;
 }
+
+
+.heading{
+  position: relative;
+  display: none;
+  top: 20px;
+  z-index: 1;
+}
+
+#heading, #heading2, #heading3, #heading4, #heading5{
+  display: none;
+}
+
 
 
 .flexbox-child-item-1{
@@ -147,7 +157,35 @@
   .container{
     padding-right: 5%;
   }
+
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -34%;
+  }
 }
+
+@media screen and (max-width: 753px){
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -56%;
+  }
+}
+
+@media screen and (max-width: 714px){
+
+}
+
+@media screen and (max-width: 697px){
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -59%;
+  }
+}
+
+@media screen and (max-width: 656px){
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -62%;
+  }
+}
+
+
 @media screen and (max-width: 635px){
   .flexbox-child{
     width: 50%;
@@ -160,15 +198,103 @@
   .container{
     padding-right: 2%;
   }
+
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -21%;
+  }
+}
+
+@media screen and (max-width: 580px){
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -24%;
+  }
+}
+
+@media screen and (max-width: 528px){
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -27%;
+  }
 }
 @media screen and (max-width: 494px){
   .container{
     padding-right: 1%;
   }
 }
+
+@media screen and (max-width: 462px){
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -30%;
+  }
+}
+
+@media screen and (max-width: 423px){
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -53%;
+  }
+}
+
+@media screen and (max-width: 384px){
+  .blackbox, #blackbox1, #blackbox2, #blackbox3, #blackbox4, #blackbox5{
+    margin-top: -60%;
+  }
+}
   </style>
 
+  <script>
+  // $(document).ready(function(){
+  //   $('.flexbox-child').mouseenter(function(){
+  //     $(this).find('.blackbox').show();
+  //   });
+  // }); /* this will make the image hover effects work */
 
+  $(window).load(function() {
+  	$(".flexbox-child-item-1").mouseenter(function() {
+           $('#blackbox1').toggle();
+           $('#heading').toggle();
+  	}).mouseleave(function () {
+      $('#blackbox1').toggle();
+  		$('#heading').toggle();
+  	}); /* ths is the end of flex child */
+
+
+    $(".flexbox-child-item-2").mouseenter(function() {
+           $('#blackbox2').toggle();
+           $('#heading2').toggle();
+    }).mouseleave(function () {
+      $('#blackbox2').toggle();
+      $('#heading2').toggle();
+    }); /* ths is the end of flex child */
+
+
+    $(".flexbox-child-item-3").mouseenter(function() {
+           $('#blackbox3').toggle();
+           $('#heading3').toggle();
+    }).mouseleave(function () {
+      $('#blackbox3').toggle();
+      $('#heading3').toggle();
+    }); /* ths is the end of flex child */
+
+    $(".flexbox-child-item-4").mouseenter(function() {
+           $('#blackbox4').toggle();
+           $('#heading4').toggle();
+    }).mouseleave(function () {
+      $('#blackbox4').toggle();
+      $('#heading4').toggle();
+    }); /* ths is the end of flex child */
+
+    $(".flexbox-child-item-5").mouseenter(function() {
+           $('#blackbox5').toggle();
+           $('#heading5').toggle();
+    }).mouseleave(function () {
+      $('#blackbox5').toggle();
+      $('#heading5').toggle();
+    }); /* ths is the end of flex child */
+
+
+
+  }); /* this is the end of load */
+
+  </script>
 </head>
 
 
@@ -226,7 +352,9 @@
         <div class="container">
           <div class="flexbox-container">
               <div class="flexbox-child flexbox-child-item-1">
+                <h1 id="heading" class="col-sm-2 heading">This a test</h1>
                   <div class="blackbox" id="blackbox1">
+
 
 
                   </div><!-- end of blackbox -->
@@ -234,16 +362,57 @@
 
               </div>
               <div class="flexbox-child flexbox-child-item-2">
-                <div class="blackbox">
+                <h1 id="heading2" class="col-sm-2 heading">This a test</h1>
+                  <div class="blackbox" id="blackbox2">
+                    <div class="blackbox">
 
+
+
+                    </div><!-- end of blackbox -->
+
+
+                  </div><!-- end of blackbox -->
+
+
+
+              </div>
+              <div class="flexbox-child flexbox-child-item-3">
+              <h1 id="heading3" class="col-sm-2 heading">This a test</h1>
+                <div class="blackbox" id="blackbox3">
+                  <div class="blackbox">
+
+
+
+                  </div><!-- end of blackbox -->
+
+                </div><!-- end of blackbox -->
+
+              </div>
+              <div class="flexbox-child flexbox-child-item-4">
+                <h1 id="heading4" class="col-sm-2 heading">This a test</h1>
+                <div class="blackbox" id="blackbox4">
+                  <div class="blackbox">
+
+
+
+                  </div><!-- end of blackbox -->
 
                 </div><!-- end of blackbox -->
 
 
+
               </div>
-              <div class="flexbox-child flexbox-child-item-3"></div>
-              <div class="flexbox-child flexbox-child-item-4"></div>
-              <div class="flexbox-child flexbox-child-item-5"></div>
+              <div class="flexbox-child flexbox-child-item-5">
+              <h1 id="heading5" class="col-sm-2 heading">This a test</h1>
+                <div class="blackbox" id="blackbox5">
+                  <div class="blackbox">
+
+
+
+                  </div><!-- end of blackbox -->
+
+                </div><!-- end of blackbox -->
+              </div>
               <div class="flexbox-child flexbox-child-item-6"></div>
           </div>
 
@@ -275,6 +444,8 @@
     })
 
   </script>
+
+
 
 
 </body>
