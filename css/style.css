@@ -239,6 +239,7 @@ ul{
 }
 
 ul#menu{
+  font-family: 'ProximaNovaBlackBold';
   text-transform: uppercase;
   margin-left: 9%;
   top: 68%;
