@@ -1044,3 +1044,25 @@ ul.projectlist, .movablist{
     margin-top: -12%;
     margin-left: 7%;
 }
+
+.smallicons{
+  width: 13%;
+  margin-right: 14%;
+}
+
+.smallicons2{
+  width: 16%;
+}
+
+.smallsocialmediadiv{
+  margin-left: 13%;
+  margin-top: -4%;
+}
+
+.headerline{
+    margin: 0 auto;
+    background-color: #4a4a4a;
+    width: 10%;
+    height: 3px;
+    margin-top: 2%;
+}
