@@ -1,0 +1,79 @@
+/* THE FOLLOWING NAMES YOU CAN USE FOR THE PROXIMA NOVA FONTS::::
+
+ProximaRegular
+ProximaLight
+ProximaLight2
+ProximaNova
+ProximaNova2
+ProximaNovaBlack
+ProximaNovaBlackBold
+ProximaExtraBold
+ProximaThin
+ProximaBest
+
+
+
+
+*/
+
+
+
+@font-face {
+   font-family: ProximaLight;
+   src: url('../ProximaNova/ProximaNovaLight.otf');
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url('../ProximaNova/ProximaNova.otf');
+}
+
+
+@font-face {
+  font-family: ProximaNova2;
+  src: url('../ProximaNova/ProximaNova2.otf');
+}
+
+@font-face {
+   font-family: ProximaLight;
+   src: url('../ProximaNova/ProximaNovaLight.otf');
+}
+
+@font-face {
+  font-family: ProximaNovaBlack;
+  src: url('../ProximaNova/ProximaNovaBlack.otf');
+}
+
+
+@font-face {
+  font-family: ProximaNovaBlackBold;
+  src: url('../ProximaNova/ProximaNovaBlackBold.otf');
+}
+
+@font-face {
+   font-family: ProximaExtraBold;
+   src: url('../ProximaNova/ProximaNovaExtrabold.otf');
+}
+
+@font-face {
+  font-family: ProximaLight2;
+  src: url('../ProximaNova/ProximaNovaLight2.otf');
+}
+
+
+@font-face {
+  font-family: ProximaRegular;
+  src: url('../ProximaNova/ProximaNovaRegular.otf');
+}
+
+
+@font-face {
+  font-family: ProximaThin;
+  src: url('../ProximaNova/ProximaNovaThin.otf');
+}
+
+
+@font-face {
+  font-family: ProximaBest;
+  src: url('../ProximaNova/ProximaNovaVBestLight.otf');
+}

@@ -4,6 +4,8 @@
  * licensed under MIT
  */
 
+
+
  body{
    overflow-y: auto;
    overflow-x: hidden;
@@ -237,6 +239,7 @@ ul{
 }
 
 ul#menu{
+  text-transform: uppercase;
   margin-left: 9%;
   top: 68%;
   display: table;
