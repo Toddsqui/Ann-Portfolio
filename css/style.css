@@ -1030,3 +1030,8 @@ ul.projectlist, .movablist{
   margin-top: 10%;
   padding-bottom: 14%;
 }
+
+#followmelink{
+  margin-top: 24%;
+  font-family: ProximaRegular;
+}
