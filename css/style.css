@@ -11,6 +11,15 @@
    overflow-x: hidden;
  }
 
+ .line{
+   background-color: #db747a;
+    width: 18%;
+    height: 3px;
+    margin-bottom: 17%;
+    margin-top: -12%;
+    margin-left: 45%;
+ }
+
  a{
    color: black;
  }
