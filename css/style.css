@@ -998,3 +998,15 @@ ul.projectlist, .movablist{
     border-left: 200px solid #fff;
     border-bottom: 100px solid transparent;
 }
+
+/* this is for the styling of the buttons */
+.buttons{
+  width: 291px;
+  margin-left: -19%;
+  margin-bottom: 3%;
+}
+
+#featureprojectslabel{
+  margin-top: 10%;
+  padding-bottom: 14%;
+}
