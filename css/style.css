@@ -186,6 +186,7 @@
 }
 
 .normalicon{
+  margin-left: 6%;
   width: 90px;
   margin: 0 auto;
   display: block;
@@ -271,7 +272,7 @@ ul a{
 
 .at {
   margin-bottom: 140.984px;
-  margin-left: 14%;
+  margin-left: 6%;
 }
 
 .eye-background{
@@ -441,7 +442,7 @@ ul a{
     display: none;
   }
 
-}. 
+}.
 
 @media screen and (max-width: 906px){
   #ball1, #ball2, #ball3, #ball4 {
