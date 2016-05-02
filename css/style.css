@@ -24,6 +24,11 @@
    color: black;
  }
 
+ a:hover{
+   color: #4a4a4a;
+   text-decoration: none;
+ }
+
  .center{
    text-align: center;
  }
@@ -249,15 +254,21 @@ ul{
 }
 
 ul#menu{
-  font-family: 'ProximaNovaBlackBold';
-  text-transform: uppercase;
-  margin-left: 9%;
-  top: 68%;
-  display: table;
+      font-family: 'ProximaNovaBlackBold';
+      text-transform: uppercase;
+      margin-left: -5%;
+      top: 51%;
+      display: table;
+      font-size: 23px;
+      color: #4a4a4a;
 }
 
 ul a{
   display: table-row;
+}
+
+ul li{
+  color: #4a4a4a;
 }
 
 .main-content{
@@ -285,7 +296,7 @@ ul a{
 
 
 .at {
-  margin-bottom: 140.984px;
+  margin-bottom: 46.984px;
   margin-left: 6%;
 }
 
