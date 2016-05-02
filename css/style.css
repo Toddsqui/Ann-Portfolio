@@ -780,6 +780,7 @@ ul.projectlist, .movablist{
 }
 
 .movablist{
+  height: 130vh;
   margin-left: 19%;
   margin-top: -6%;
 }
