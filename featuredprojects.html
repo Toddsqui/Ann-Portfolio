@@ -146,6 +146,29 @@
 
     </script>
 
+    <script>
+
+    $(document).ready(
+      function(){
+          $("#portfBtn").click(function () {
+              $("#featuredprojectslabel").css('display', " ");
+          });
+      });
+
+      $('#portfBtn').click(function(){
+      if ( $('#featureprojectslabel').css('display') == 'none' )
+        $('#featureprojectslabel').css('display','block');
+      else
+        $('#featureprojectslabel').css('display','none');
+    });
+
+    $('#portfBtn').click(function(){
+    if ( $('.buttons').css('display') == 'none' )
+      $('.buttons').css('display','block');
+    else
+      $('.buttons').css('display','none');
+    });
+    </script>
 
 
 

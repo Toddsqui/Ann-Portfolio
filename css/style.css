@@ -673,10 +673,10 @@ body.welcome {
     color-stop(0, #eee),
     color-stop(12%, #F5F5F5),
     color-stop(12%, #F5F5F5),
-    color-stop(12%, #f9e97c),
-    color-stop(14%, #f9e97c),
-    color-stop(14%, #f9e97c),
-    color-stop(100%, #f9e97c)
+    color-stop(12%, #fff),
+    color-stop(14%, #fff),
+    color-stop(14%, #fff),
+    color-stop(100%, #fff)
 	);
 }
 
@@ -1022,12 +1022,14 @@ ul.projectlist, .movablist{
 
 /* this is for the styling of the buttons */
 .buttons{
+  display: none;
   width: 291px;
   margin-left: -19%;
   margin-bottom: 3%;
 }
 
 #featureprojectslabel{
+  display: none;
   margin-top: 10%;
   padding-bottom: 14%;
 }
@@ -1075,7 +1077,7 @@ ul.projectlist, .movablist{
 }
 
 @media screen and (max-width: 1351px){
-  .buttons{
+    .buttons{
     margin-left: -15%;
   }
 }
@@ -1120,3 +1122,17 @@ ul.projectlist, .movablist{
     margin-left: -28%;
   }
 }
+
+/* end of media queries */
+
+/* Styling for the welcome page */
+
+.welcomediv{
+  background-image: url('../images/welcomebackground.svg') no-repeat;
+  background-size: cover;
+  margin-left: -7%;
+  width: 108%;
+  margin-top: 11%;
+  z-index: 0;
+
+} /* end of welcome div */
