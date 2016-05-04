@@ -41,6 +41,64 @@
   margin-top: 3%;
 }
 
+.sidebar2{
+  left: 72%;
+}
+
+.writingcontent{
+  font-family: ProximaBest;
+  font-size: 2.0em;
+  position: absolute;
+  margin: 0 auto;
+  width: 34%;
+  bottom: 11%;
+  left: 40%;
+}
+
+@media screen and (max-width: 960px){
+  .welcomediv{
+    background: url('images/welcomebackground2.svg') no-repeat;
+    background-size: cover;
+    width: 207%;
+    height: 100vh;
+    margin-left: -47%;
+    margin-top: 3%;
+  }
+}
+
+@media screen and (max-width: 534px){
+  .welcomediv{
+    background: url('images/welcomebackground2.svg') no-repeat;
+    background-size: cover;
+    width: 207%;
+    height: 100vh;
+    margin-left: -68%;
+    margin-top: 0%;
+  }
+}
+
+@media screen and (max-width: 512px){
+  .welcomediv{
+    background: #f9e97c;
+  }
+  .writingcontent{
+    font-family: ProximaBest;
+    font-size: 26px;
+    position: absolute;
+    margin: 0 auto;
+    width: 60%;
+    bottom: 43%;
+    left: 24%;
+  } /* end of writing content */
+} /* end of 512 */
+
+@media screen and (max-width: 240px){
+  .writingcontent{
+    left: 24%;
+    bottom: 28%;
+  }
+}
+
 
 </style>
 
@@ -126,7 +184,9 @@
 
 <div class="welcomediv">
 
-
+<div class="writingcontent">
+<p>Hi, my name is Ann. I observe and create things to improve our lives.</p>
+</div><!-- end of writing content -->
 
 
 </div><!-- end of welcome div -->
