@@ -1,3 +1,50 @@
+<!-- NOTES:
+
+This is the main template for most of the pages. If you're going to add any new pages to the layout, I would use this layout because it is the simplest and has the least amount of extra code as the others.
+
+.writing = the writing on the page
+.main-container = This is the heading of the main area section. I also used the word cow to make it stand out a bit more but it has no relation to an actual cow. You may wish to change this to help you keep things straight in your own mind about where everything is in this layout. For me, it was the word "Cow"
+.normalfont = this just makes the font the default that Ann wants.
+.movablist = This is the menu that slides out after you click on the Portfolio link at the side menu. Movable_options are the options that appear after you click on the button. You can edit these in the style.css file.
+
+SlickNav is being used to power the top menu when you adjust the layout below 960px. There is a special slicknav folder that you will need to go into to edit this particular banner because none of the coding to adjust this is in any of the other files that do styling. Just fyi, because I often forget this myself and searched for the coding for HOURS. I hope this information will help save you some time. Only a little styling of the slick nav is in the style.css file.
+
+Ann wanted the Proxima Nova font. I have installed many versions of this font which you can quickly access by using any of these words to trigger the different forms of the font:
+
+ProximaRegular
+ProximaLight
+ProximaLight2
+ProximaNova
+ProximaNova2
+ProximaNovaBlack
+ProximaNovaBlackBold
+ProximaExtraBold
+ProximaThin
+ProximaBest
+
+Use any of these as the font-family and it should work just fine.
+
+The background is a gradient, not a Bootstrap background. This is not a common option but I did it so that the layout would adjust as you moved the background below 960px and as Ann added content. I didn't want developers to have to come in and adjust the layout every time Ann populated the website and I think you will find that the background gradient makes it easier for you to install a wordpress functionality to make the website adjust as more content is added. The background gradients are in the style.css file and they look like this:
+
+body {
+  background-image: -webkit-gradient(linear,
+    left top,
+    right top,
+    color-stop(0, #eee),
+    color-stop(12%, #F5F5F5),
+    color-stop(12%, #F5F5F5),
+    color-stop(12%, #fff),
+    color-stop(14%, #fff),
+    color-stop(14%, #FED660),
+    color-stop(100%, #FED660)
+	);
+}
+
+Finally, if you have any questions, as a last resort, you can contact me: toddsqui@gmail.com. I may not get back to you in awhile as I am traveling. I will get back to you as soon as I can.
+-->
+
+
+
 <!doctype html>
 <html>
 <head>
@@ -124,7 +171,7 @@
             </div><!-- end of headerline -->
           <img src="logo.svg" class="mainimg" alt="Main pic for Ann's site" style="margin-top: 7%; width: 11%;">
 
-        </div><!-- end of cow -->
+        </div><!-- end of and main container cow -->
 
         <p class="writing normalfont">I'm a junior UX designer with a passion for design and technology, with multidisciplinary backgrounds.<br /><br />
         I believe putting users at the heart of any project is the key to deliver thoughtful work.<br /><br />
